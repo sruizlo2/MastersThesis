@@ -1,15 +1,15 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7050 64-bit) (preloaded format=xelatex 2019.6.12)  25 FEB 2020 13:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.2.19)  25 FEB 2020 14:32
 entering extended mode
 **./Anteproyecto.tex
 (Anteproyecto.tex
-LaTeX2e <2018-12-01>
+LaTeX2e <2019-10-01> patch level 3
 (mitthesis.cls
 Document Class: mitthesis 1999/10/20
 \vithesis=\count80
-("I:\Program Files\MiKTeX 2.9\tex/latex/base\report.cls"
-Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
-("I:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
-File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2019/10/25 v1.4k Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 \c@part=\count81
 \c@chapter=\count82
@@ -24,7 +24,7 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/setspace\setspace.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
 Thesis document copyright MIT unless otherwise (manually) specified
@@ -43,25 +43,19 @@ Package: lgrind 1997/01/30 v3.4 LGrind environment and supporting stuff
 \tb@x=\box31
 \TBw@d=\dimen103
 \@ts=\dimen104
-) ("I:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
-Package: geometry 2018/04/16 v5.8 Page Geometry
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\ifpdf.sty
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\iftex.sty
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
 Package: iftex 2019/11/07 v1.0c TeX engine tests
 ))
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\ifxetex.sty
-Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-)
 \Gm@cnth=\count94
 \Gm@cntv=\count95
 \c@Gm@tempcnt=\count96
@@ -75,20 +69,17 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks15
 
-("I:\Program Files\MiKTeX 2.9\tex/xelatex/xetexconfig\geometry.cfg"))
-("I:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/colortbl\colortbl.sty
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/colortbl\colortbl.sty"
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen113
 \ar@mcellbox=\box32
 \extrarowheight=\dimen114
@@ -97,43 +88,42 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \backup@length=\skip46
 \ar@cellbox=\box33
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 147.
+Package color Info: Driver file: pdftex.def on input line 147.
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\xetex.def"
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \everycr=\toks19
 \minrowclearance=\skip47
 )
-("I:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2019/06/03 3.32 The Babel package
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2019/11/14 3.36 The Babel package
 
-("I:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2019/06/03 3.32 Babel switching mechanism
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2019/11/14 3.36 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/arabi\bblopts.cfg
+("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf"
+("C:\Program Files\MiKTeX 2.9\tex/latex/babel-spanish\spanish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-("I:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2019/06/03 3.32 Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2019/11/14 3.36 Babel common definitions
 \babel@savecnt=\count97
 \U@D=\dimen115
 
-("I:\Program Files\MiKTeX 2.9\tex/generic/babel\xebabel.def"
-("I:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def"))
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
 \bbl@dirlevel=\count98
 )
 \es@quottoks=\toks20
@@ -143,41 +133,41 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-("I:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
-Package: amsmath 2018/12/01 v2.17b AMS math features
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2019/11/16 v2.17d AMS math features
 \@mathmargin=\skip48
 
 For additional information on amsmath, use the `?' option.
-("I:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen116
 ))
-("I:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen117
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count100
-LaTeX Info: Redefining \frac on input line 223.
+LaTeX Info: Redefining \frac on input line 227.
 \uproot@=\count101
 \leftroot@=\count102
-LaTeX Info: Redefining \overline on input line 385.
+LaTeX Info: Redefining \overline on input line 389.
 \classnum@=\count103
 \DOTSCASE@=\count104
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box34
 \strutbox@=\box35
 \big@size=\dimen118
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count105
 \c@MaxMatrixCols=\count106
 \dotsspace@=\muskip10
@@ -198,320 +188,314 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \multlinegap=\skip49
 \multlinetaggap=\skip50
 \mathdisplay@stack=\toks25
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/jknappen\mathrsfs.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\mathrsfs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup4
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count112
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
-Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/hobsub\hobsub-hyperref.sty
-Package: hobsub-hyperref 2019-11-14
-hobsub not currently supported, see hobsub.dtx to extract original code
-
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/pdftexcmds\pdftexcmds.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
+Package pdftexcmds Info: \pdfdraftmode found.
 )
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/generic/iftex\ifluatex.sty
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifluatex.sty"
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )))
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 )
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdfescape.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\pdfescape.sty"
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\hycolor.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\hycolor.sty"
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\xcolor-patch.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\xcolor-patch.sty"
 Package: xcolor-patch 2016/05/16 xcolor patch
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\hopatch.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\hopatch.sty"
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 )))
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\letltxmacro.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\letltxmacro.sty"
 Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-))
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\auxhook.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen125
 \Hy@linkcounter=\count113
 \Hy@pagecounter=\count114
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
-File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2019/11/10 v7.00c Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\intcalc.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\intcalc.sty"
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count115
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4519.
-Package hyperref Info: Link nesting OFF on input line 4524.
-Package hyperref Info: Hyper index ON on input line 4527.
-Package hyperref Info: Plain pages OFF on input line 4534.
-Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4772.
+Package hyperref Info: Bookmarks ON on input line 4788.
 \c@Hy@tempcnt=\count116
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/url\url.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5125.
+LaTeX Info: Redefining \url on input line 5147.
 \XeTeXLinkMargin=\dimen126
 
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\bitset.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\bitset.sty"
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\bigintcalc.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\bigintcalc.sty"
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count117
 \Field@Width=\dimen127
 \Fld@charsize=\dimen128
-Package hyperref Info: Hyper figures OFF on input line 6380.
-Package hyperref Info: Link nesting OFF on input line 6385.
-Package hyperref Info: Hyper index ON on input line 6388.
-Package hyperref Info: backreferencing OFF on input line 6395.
-Package hyperref Info: Link coloring OFF on input line 6400.
-Package hyperref Info: Link coloring with OCG OFF on input line 6405.
-Package hyperref Info: PDF/A mode OFF on input line 6410.
-LaTeX Info: Redefining \ref on input line 6450.
-LaTeX Info: Redefining \pageref on input line 6454.
+Package hyperref Info: Hyper figures OFF on input line 6418.
+Package hyperref Info: Link nesting OFF on input line 6423.
+Package hyperref Info: Hyper index ON on input line 6426.
+Package hyperref Info: backreferencing OFF on input line 6433.
+Package hyperref Info: Link coloring OFF on input line 6438.
+Package hyperref Info: Link coloring with OCG OFF on input line 6443.
+Package hyperref Info: PDF/A mode OFF on input line 6448.
+LaTeX Info: Redefining \ref on input line 6488.
+LaTeX Info: Redefining \pageref on input line 6492.
 
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\atbegshi.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\atbegshi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifpdf.sty"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+))
 \Hy@abspage=\count118
 \c@Item=\count119
 \c@Hfootnote=\count120
 )
-Package hyperref Info: Driver (autodetected): hxetex.
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hxetex.def"
-File: hxetex.def 2018/11/30 v6.88e Hyperref driver for XeTeX
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
+File: hpdftex.def 2019/11/10 v7.00c Hyperref driver for pdfTeX
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/hyperref\puenc.def"
-File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
-)
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\stringenc.sty"
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box36
-\c@Hy@AnnotLevel=\count121
-\HyField@AnnotCount=\count122
-\Fld@listcount=\count123
-\c@bookmark@seq@number=\count124
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\rerunfilecheck.sty"
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\atveryend.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\atveryend.sty"
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 )
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\uniquecounter.sty"
+\Fld@listcount=\count121
+\c@bookmark@seq@number=\count122
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\uniquecounter.sty"
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+85.
 )
 \Hy@SectionHShift=\skip51
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup5
 \symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/doublestroke\dsfont.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/doublestroke\dsfont.sty"
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
 \Gin@req@height=\dimen129
 \Gin@req@width=\dimen130
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\pdflscape.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
+Package pdflscape Info: Auto-detected driver: pdftex on input line 84.
 
-)
-("I:\Program Files\MiKTeX 2.9\tex/latex/tools\afterpage.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifxetex.sty"
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\afterpage.sty"
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks26
-\AP@partial=\box37
-\AP@footins=\box38
+\AP@partial=\box36
+\AP@footins=\box37
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/cite\cite.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/mdwtools\footnote.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/mdwtools\footnote.sty"
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box39
+\fn@notes=\box38
 \fn@width=\dimen131
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/datatool\datatool.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/datatool\datatool.sty"
 Package: datatool 2019/09/27 v2.32 (NLCT)
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("I:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
-("I:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count125
+\XKV@depth=\count123
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("I:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/xfor\xfor.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/xfor\xfor.sty"
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/substr\substr.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/substr\substr.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count126
+\c@su@anzahl=\count124
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/datatool\datatool-base.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/datatool\datatool-base.sty"
 Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/datatool\datatool-fp.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/datatool\datatool-fp.sty"
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp.sty"
 Package: fp 1995/04/02
 
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\defpattern.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\defpattern.sty"
 Package: defpattern 1994/10/12
-\actioncount=\count127
+\actioncount=\count125
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp-basic.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
-\FP@xs=\count128
-\FP@xia=\count129
-\FP@xib=\count130
-\FP@xfa=\count131
-\FP@xfb=\count132
-\FP@rega=\count133
-\FP@regb=\count134
-\FP@regs=\count135
-\FP@times=\count136
+\FP@xs=\count126
+\FP@xia=\count127
+\FP@xib=\count128
+\FP@xfa=\count129
+\FP@xfb=\count130
+\FP@rega=\count131
+\FP@regb=\count132
+\FP@regs=\count133
+\FP@times=\count134
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp-addons.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-addons.sty"
 Package: fp-addons 1995/03/15
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp-snap.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-snap.sty"
 Package: fp-snap 1995/04/05
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp-exp.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-exp.sty"
 Package: fp-exp 1995/04/03
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp-trigo.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-trigo.sty"
 Package: fp-trigo 1995/04/14
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp-pas.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-pas.sty"
 Package: fp-pas 1994/08/29
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp-random.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-random.sty"
 Package: fp-random 1995/02/23
-\FPseed=\count137
+\FPseed=\count135
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp-eqn.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp-upn.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-upn.sty"
 Package: fp-upn 1996/10/21
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/fp\fp-eval.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/fp\fp-eval.sty"
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks29
-\@dtl@tmpcount=\count138
+\@dtl@tmpcount=\count136
 \dtl@tmplength=\skip52
-\dtl@sortresult=\count139
-\@dtl@numgrpsepcount=\count140
-\@dtl@datatype=\count141
-\dtl@codeA=\count142
-\dtl@codeB=\count143
-\@dtl@foreach@level=\count144
+\dtl@sortresult=\count137
+\@dtl@numgrpsepcount=\count138
+\@dtl@datatype=\count139
+\dtl@codeA=\count140
+\dtl@codeB=\count141
+\@dtl@foreach@level=\count142
 )
-\dtlcolumnnum=\count145
-\dtlrownum=\count146
+\dtlcolumnnum=\count143
+\dtlrownum=\count144
 \@dtl@before=\toks30
 \@dtl@after=\toks31
 \@dtl@colhead=\toks32
 \dtlcurrentrow=\toks33
 \dtlbeforerow=\toks34
 \dtlafterrow=\toks35
-\dtlforeachlevel=\count147
-\c@DTLrowi=\count148
-\c@DTLrowii=\count149
-\c@DTLrowiii=\count150
-\c@DTLrow=\count151
-\dtl@rowi=\count152
-\dtl@rowii=\count153
-\dtl@rowiii=\count154
+\dtlforeachlevel=\count145
+\c@DTLrowi=\count146
+\c@DTLrowii=\count147
+\c@DTLrowiii=\count148
+\c@DTLrow=\count149
+\dtl@rowi=\count150
+\dtl@rowii=\count151
+\dtl@rowiii=\count152
 \@dtl@curi=\toks36
 \@dtl@previ=\toks37
 \@dtl@nexti=\toks38
@@ -521,7 +505,7 @@ Package: fp-eval 1995/04/03
 \@dtl@curiii=\toks42
 \@dtl@previii=\toks43
 \@dtl@nextiii=\toks44
-\@dtl@elements=\count155
+\@dtl@elements=\count153
 \@dtl@list=\toks45
 \@dtl@rowa=\toks46
 \@dtl@rowb=\toks47
@@ -529,72 +513,72 @@ Package: fp-eval 1995/04/03
 \@dtl@toksB=\toks49
 \@dtl@write=\write3
 \@dtl@read=\read1
-\dtl@entrycr=\count156
-\dtl@omitlines=\count157
+\dtl@entrycr=\count154
+\dtl@omitlines=\count155
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/pdfpages\pdfpages.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.sty"
 Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count158
-\calc@Bcount=\count159
+\calc@Acount=\count156
+\calc@Bcount=\count157
 \calc@Adimen=\dimen132
 \calc@Bdimen=\dimen133
 \calc@Askip=\skip53
 \calc@Bskip=\skip54
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count160
+\calc@Ccount=\count158
 \calc@Cskip=\skip55
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/eso-pic\eso-pic.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.sty"
 Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
 \AM@pagewidth=\dimen134
 \AM@pageheight=\dimen135
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/pdfpages\ppxetex.def
-File: ppxetex.def 2020/01/28 v0.5q Pdfpages driver for XeTeX (AM)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.def"
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box40
+\AM@pagebox=\box39
 \AM@global@opts=\toks50
-\AM@pagecnt=\count161
+\AM@pagecnt=\count159
 \AM@toc@title=\toks51
-\c@AM@survey=\count162
-\AM@templatesizebox=\box41
+\c@AM@survey=\count160
+\AM@templatesizebox=\box40
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.sty
-\lst@mode=\count163
-\lst@gtempboxa=\box42
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.sty"
+\lst@mode=\count161
+\lst@gtempboxa=\box41
 \lst@token=\toks52
-\lst@length=\count164
+\lst@length=\count162
 \lst@currlwidth=\dimen136
-\lst@column=\count165
-\lst@pos=\count166
+\lst@column=\count163
+\lst@pos=\count164
 \lst@lostspace=\dimen137
 \lst@width=\dimen138
-\lst@newlines=\count167
-\lst@lineno=\count168
+\lst@newlines=\count165
+\lst@lineno=\count166
 \lst@maxwidth=\dimen139
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstmisc.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count169
-\lst@skipnumbers=\count170
-\lst@framebox=\box43
+\c@lstnumber=\count167
+\lst@skipnumbers=\count168
+\lst@framebox=\box42
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\listings.cfg
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg"
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption.sty
-Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\caption3.sty
-Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 64.
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
 \captionmargin=\dimen140
 \captionmargin@=\dimen141
 \captionwidth=\dimen142
@@ -602,46 +586,48 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@indent=\dimen144
 \caption@parindent=\dimen145
 \caption@hangindent=\dimen146
+Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count171
-\c@ContinuedFloat=\count172
+\c@caption@flags=\count169
+\c@continuedfloat=\count170
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/caption\subcaption.sty
-Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count173
-\c@subtable=\count174
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\subcaption.sty"
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count171
+\c@subtable=\count172
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/appendix\appendix.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/appendix\appendix.sty"
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count175
-\c@@ppsavesec=\count176
-\c@@ppsaveapp=\count177
+\c@@pps=\count173
+\c@@ppsavesec=\count174
+\c@@ppsaveapp=\count175
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/tools\multicol.sty"
-Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
-\c@tracingmulticols=\count178
-\mult@box=\box44
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\multicol.sty"
+Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
+\c@tracingmulticols=\count176
+\mult@box=\box43
 \multicol@leftmargin=\dimen147
-\c@unbalance=\count179
-\c@collectmore=\count180
-\doublecol@number=\count181
-\multicoltolerance=\count182
-\multicolpretolerance=\count183
+\c@unbalance=\count177
+\c@collectmore=\count178
+\doublecol@number=\count179
+\multicoltolerance=\count180
+\multicolpretolerance=\count181
 \full@width=\dimen148
 \page@free=\dimen149
 \premulticols=\dimen150
 \postmulticols=\dimen151
 \multicolsep=\skip56
 \multicolbaselineskip=\skip57
-\partial@page=\box45
-\last@line=\box46
+\partial@page=\box44
+\last@line=\box45
 \maxbalancingoverflow=\dimen152
-\mult@rightbox=\box47
-\mult@grightbox=\box48
-\mult@gfirstbox=\box49
-\mult@firstbox=\box50
+\mult@rightbox=\box46
+\mult@grightbox=\box47
+\mult@gfirstbox=\box48
+\mult@firstbox=\box49
+\@tempa=\box50
 \@tempa=\box51
 \@tempa=\box52
 \@tempa=\box53
@@ -658,172 +644,44 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \@tempa=\box64
 \@tempa=\box65
 \@tempa=\box66
-\@tempa=\box67
-\c@columnbadness=\count184
-\c@finalcolumnbadness=\count185
+\c@minrows=\count182
+\c@columnbadness=\count183
+\c@finalcolumnbadness=\count184
 \last@try=\dimen153
 \multicolovershoot=\dimen154
 \multicolundershoot=\dimen155
-\mult@nat@firstbox=\box68
-\colbreak@box=\box69
-\mc@col@check@num=\count186
+\mult@nat@firstbox=\box67
+\colbreak@box=\box68
+\mc@col@check@num=\count185
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/acronym\acronym.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/acronym\acronym.sty"
 Package: acronym 2019/11/11 v1.42 Support for acronyms (Tobias Oetiker)
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/bigfoot\suffix.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/bigfoot\suffix.sty"
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/xstring\xstring.sty
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/generic/xstring\xstring.tex
-\integerpart=\count187
-Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
-\decimalpart=\count188
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
+("C:\Program Files\MiKTeX 2.9\tex/latex/xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xstring\xstring.tex"
+\integerpart=\count186
+\decimalpart=\count187
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 \AC@clearlist=\toks53
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/sectsty\sectsty.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/sectsty\sectsty.sty"
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
-)
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/tocloft\tocloft.sty
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tocloft\tocloft.sty"
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip58
@@ -855,33 +713,33 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip84
 \cftfigindent=\skip85
 \cftfignumwidth=\skip86
-\c@lofdepth=\count189
-\c@lotdepth=\count190
+\c@lofdepth=\count188
+\c@lotdepth=\count189
 \cftbeforelottitleskip=\skip87
 \cftafterlottitleskip=\skip88
 \cftbeforetabskip=\skip89
 \cfttabindent=\skip90
 \cfttabnumwidth=\skip91
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count191
+\c@float@type=\count190
 \float@exts=\toks54
-\float@box=\box70
+\float@box=\box69
 \@float@everytoks=\toks55
-\@floatcapt=\box71
+\@floatcapt=\box70
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/mathtools\mathtools.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/mathtools\mathtools.sty"
 Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/mathtools\mhsetup.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/mathtools\mhsetup.sty"
 Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count192
+\g_MT_multlinerow_int=\count191
 \l_MT_multwidth_dim=\dimen156
 \origjot=\skip92
 \l_MT_shortvdotswithinadjustabove_dim=\dimen157
@@ -891,26 +749,26 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen161
 \l_MT_below_shortintertext_sep=\dimen162
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/siunitx\siunitx.sty
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3.sty
-Package: expl3 2020-02-08 L3 programming layer (loader) 
+("C:\Program Files\MiKTeX 2.9\tex/latex/siunitx\siunitx.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2019-11-07 L3 programming layer (loader) 
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\expl3-code.tex
-Package: expl3 2020-02-08 L3 programming layer (code)
-\c_max_int=\count193
-\l_tmpa_int=\count194
-\l_tmpb_int=\count195
-\g_tmpa_int=\count196
-\g_tmpb_int=\count197
-\l__seq_internal_a_int=\count198
-\l__seq_internal_b_int=\count199
-\g__kernel_prg_map_int=\count266
-\c__ior_term_noprompt_ior=\count267
-\c_log_iow=\count268
-\l_iow_line_count_int=\count269
-\l__iow_line_target_int=\count270
-\l__iow_one_indent_int=\count271
-\l__iow_indent_int=\count272
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3-code.tex"
+Package: expl3 2019-11-07 L3 programming layer (code)
+\c_max_int=\count192
+\l_tmpa_int=\count193
+\l_tmpb_int=\count194
+\g_tmpa_int=\count195
+\g_tmpb_int=\count196
+\l__seq_internal_a_int=\count197
+\l__seq_internal_b_int=\count198
+\g__kernel_prg_map_int=\count199
+\c__ior_term_noprompt_ior=\count266
+\c_log_iow=\count267
+\l_iow_line_count_int=\count268
+\l__iow_line_target_int=\count269
+\l__iow_one_indent_int=\count270
+\l__iow_indent_int=\count271
 \c_zero_dim=\dimen163
 \c_max_dim=\dimen164
 \l_tmpa_dim=\dimen165
@@ -929,19 +787,20 @@ Package: expl3 2020-02-08 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count273
-\l__intarray_loop_int=\count274
+\l_keys_choice_int=\count272
+\l__intarray_loop_int=\count273
 \c__intarray_sp_dim=\dimen169
-\g__intarray_font_int=\count275
-\c__fp_leading_shift_int=\count276
-\c__fp_middle_shift_int=\count277
-\c__fp_trailing_shift_int=\count278
-\c__fp_big_leading_shift_int=\count279
-\c__fp_big_middle_shift_int=\count280
-\c__fp_big_trailing_shift_int=\count281
-\c__fp_Bigg_leading_shift_int=\count282
-\c__fp_Bigg_middle_shift_int=\count283
-\c__fp_Bigg_trailing_shift_int=\count284
+\g__intarray_font_int=\count274
+\c__fp_leading_shift_int=\count275
+\c__fp_middle_shift_int=\count276
+\c__fp_trailing_shift_int=\count277
+\c__fp_big_leading_shift_int=\count278
+\c__fp_big_middle_shift_int=\count279
+\c__fp_big_trailing_shift_int=\count280
+\c__fp_Bigg_leading_shift_int=\count281
+\c__fp_Bigg_middle_shift_int=\count282
+\c__fp_Bigg_trailing_shift_int=\count283
+\c__kernel_randint_max_int=\count284
 \g__fp_array_int=\count285
 \l__fp_array_loop_int=\count286
 \l__sort_length_int=\count287
@@ -956,54 +815,57 @@ Package: expl3 2020-02-08 L3 programming layer (code)
 \l__sort_B_int=\count296
 \l__sort_C_int=\count297
 \l__str_internal_int=\count298
-\l__tl_analysis_normal_int=\count299
-\l__tl_analysis_index_int=\count300
-\l__tl_analysis_nesting_int=\count301
-\l__tl_analysis_type_int=\count302
-\l__regex_internal_a_int=\count303
-\l__regex_internal_b_int=\count304
-\l__regex_internal_c_int=\count305
-\l__regex_balance_int=\count306
-\l__regex_group_level_int=\count307
-\l__regex_mode_int=\count308
-\c__regex_cs_in_class_mode_int=\count309
-\c__regex_cs_mode_int=\count310
-\l__regex_catcodes_int=\count311
-\l__regex_default_catcodes_int=\count312
-\c__regex_catcode_L_int=\count313
-\c__regex_catcode_O_int=\count314
-\c__regex_catcode_A_int=\count315
-\c__regex_all_catcodes_int=\count316
-\l__regex_show_lines_int=\count317
-\l__regex_min_state_int=\count318
-\l__regex_max_state_int=\count319
-\l__regex_left_state_int=\count320
-\l__regex_right_state_int=\count321
-\l__regex_capturing_group_int=\count322
-\l__regex_min_pos_int=\count323
-\l__regex_max_pos_int=\count324
-\l__regex_curr_pos_int=\count325
-\l__regex_start_pos_int=\count326
-\l__regex_success_pos_int=\count327
-\l__regex_curr_char_int=\count328
-\l__regex_curr_catcode_int=\count329
-\l__regex_last_char_int=\count330
-\l__regex_case_changed_char_int=\count331
-\l__regex_curr_state_int=\count332
-\l__regex_step_int=\count333
-\l__regex_min_active_int=\count334
-\l__regex_max_active_int=\count335
-\l__regex_replacement_csnames_int=\count336
-\l__regex_match_count_int=\count337
-\l__regex_min_submatch_int=\count338
-\l__regex_submatch_int=\count339
-\l__regex_zeroth_submatch_int=\count340
-\g__regex_trace_regex_int=\count341
-\c_empty_box=\box72
-\l_tmpa_box=\box73
-\l_tmpb_box=\box74
-\g_tmpa_box=\box75
-\g_tmpb_box=\box76
+\c__str_replacement_char_int=\count299
+\l__tl_analysis_normal_int=\count300
+\l__tl_analysis_index_int=\count301
+\l__tl_analysis_nesting_int=\count302
+\l__tl_analysis_type_int=\count303
+\l__regex_internal_a_int=\count304
+\l__regex_internal_b_int=\count305
+\l__regex_internal_c_int=\count306
+\l__regex_balance_int=\count307
+\l__regex_group_level_int=\count308
+\l__regex_mode_int=\count309
+\c__regex_cs_in_class_mode_int=\count310
+\c__regex_cs_mode_int=\count311
+\l__regex_catcodes_int=\count312
+\l__regex_default_catcodes_int=\count313
+\c__regex_catcode_D_int=\count314
+\c__regex_catcode_S_int=\count315
+\c__regex_catcode_L_int=\count316
+\c__regex_catcode_O_int=\count317
+\c__regex_catcode_A_int=\count318
+\c__regex_all_catcodes_int=\count319
+\l__regex_show_lines_int=\count320
+\l__regex_min_state_int=\count321
+\l__regex_max_state_int=\count322
+\l__regex_left_state_int=\count323
+\l__regex_right_state_int=\count324
+\l__regex_capturing_group_int=\count325
+\l__regex_min_pos_int=\count326
+\l__regex_max_pos_int=\count327
+\l__regex_curr_pos_int=\count328
+\l__regex_start_pos_int=\count329
+\l__regex_success_pos_int=\count330
+\l__regex_curr_char_int=\count331
+\l__regex_curr_catcode_int=\count332
+\l__regex_last_char_int=\count333
+\l__regex_case_changed_char_int=\count334
+\l__regex_curr_state_int=\count335
+\l__regex_step_int=\count336
+\l__regex_min_active_int=\count337
+\l__regex_max_active_int=\count338
+\l__regex_replacement_csnames_int=\count339
+\l__regex_match_count_int=\count340
+\l__regex_min_submatch_int=\count341
+\l__regex_submatch_int=\count342
+\l__regex_zeroth_submatch_int=\count343
+\g__regex_trace_regex_int=\count344
+\c_empty_box=\box71
+\l_tmpa_box=\box72
+\l_tmpb_box=\box73
+\g_tmpa_box=\box74
+\g_tmpb_box=\box75
 \l__box_top_dim=\dimen170
 \l__box_bottom_dim=\dimen171
 \l__box_left_dim=\dimen172
@@ -1012,8 +874,8 @@ Package: expl3 2020-02-08 L3 programming layer (code)
 \l__box_bottom_new_dim=\dimen175
 \l__box_left_new_dim=\dimen176
 \l__box_right_new_dim=\dimen177
-\l__box_internal_box=\box77
-\l__coffin_internal_box=\box78
+\l__box_internal_box=\box76
+\l__coffin_internal_box=\box77
 \l__coffin_internal_dim=\dimen178
 \l__coffin_offset_x_dim=\dimen179
 \l__coffin_offset_y_dim=\dimen180
@@ -1021,13 +883,13 @@ Package: expl3 2020-02-08 L3 programming layer (code)
 \l__coffin_y_dim=\dimen182
 \l__coffin_x_prime_dim=\dimen183
 \l__coffin_y_prime_dim=\dimen184
-\c_empty_coffin=\box79
-\l__coffin_aligned_coffin=\box80
-\l__coffin_aligned_internal_coffin=\box81
-\l_tmpa_coffin=\box82
-\l_tmpb_coffin=\box83
-\g_tmpa_coffin=\box84
-\g_tmpb_coffin=\box85
+\c_empty_coffin=\box78
+\l__coffin_aligned_coffin=\box79
+\l__coffin_aligned_internal_coffin=\box80
+\l_tmpa_coffin=\box81
+\l_tmpb_coffin=\box82
+\g_tmpa_coffin=\box83
+\g_tmpb_coffin=\box84
 \l__coffin_bounding_shift_dim=\dimen185
 \l__coffin_left_corner_dim=\dimen186
 \l__coffin_right_corner_dim=\dimen187
@@ -1035,106 +897,76 @@ Package: expl3 2020-02-08 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen189
 \l__coffin_scaled_total_height_dim=\dimen190
 \l__coffin_scaled_width_dim=\dimen191
-\c__coffin_empty_coffin=\box86
-\l__coffin_display_coffin=\box87
-\l__coffin_display_coord_coffin=\box88
-\l__coffin_display_pole_coffin=\box89
+\c__coffin_empty_coffin=\box85
+\l__coffin_display_coffin=\box86
+\l__coffin_display_coord_coffin=\box87
+\l__coffin_display_pole_coffin=\box88
 \l__coffin_display_offset_dim=\dimen192
 \l__coffin_display_x_dim=\dimen193
 \l__coffin_display_y_dim=\dimen194
 \g__char_data_ior=\read2
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/l3kernel\l3deprecation.def
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\l3deprecation.def"
 File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
 ))
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/l3backend\l3backend-xdvipdf
-mx.def
-File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
-\g__graphics_track_int=\count342
-\l__pdf_internal_box=\box90
-\g__pdf_backend_object_int=\count343
-\g__pdf_backend_annotation_int=\count344
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count345
+\l__pdf_internal_box=\box89
 ))
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/xparse\xparse.st
-y
-Package: xparse 2020-02-08 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count345
-\g__xparse_grabber_int=\count346
-\l__xparse_m_args_int=\count347
-\l__xparse_v_nesting_int=\count348
+
+LaTeX Warning: You have requested, on input line 16, version
+               `2020/01/12' of package expl3,
+               but only version
+               `2019-11-07 L3 programming layer (loader) '
+               is available.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
+Package: xparse 2019-10-11 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count346
+\g__xparse_grabber_int=\count347
+\l__xparse_m_args_int=\count348
+\l__xparse_v_nesting_int=\count349
 )
 Package: siunitx 2020/02/23 v2.8a A comprehensive (SI) units package
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/l3packages/l3keys2e\l3keys2
-e.sty
-Package: l3keys2e 2020-02-08 LaTeX2e option processing using LaTeX3 keys
-)
-\l__siunitx_tmp_box=\box91
-\l__siunitx_tmp_dim=\dimen195
-\l__siunitx_tmp_int=\count349
-\l__siunitx_number_mantissa_length_int=\count350
-\l__siunitx_number_uncert_length_int=\count351
-\l__siunitx_round_int=\count352
-\l__siunitx_process_decimal_int=\count353
-\l__siunitx_process_uncertainty_int=\count354
-\l__siunitx_process_fixed_int=\count355
-\l__siunitx_process_integer_min_int=\count356
-\l__siunitx_process_precision_int=\count357
-\l__siunitx_group_min_int=\count358
-\l__siunitx_angle_marker_box=\box92
-\l__siunitx_angle_unit_box=\box93
-\l__siunitx_angle_marker_dim=\dimen196
-\l__siunitx_angle_unit_dim=\dimen197
-\l__siunitx_unit_int=\count359
-\l__siunitx_unit_denominator_int=\count360
-\l__siunitx_unit_numerator_int=\count361
-\l__siunitx_unit_prefix_int=\count362
-\l__siunitx_unit_prefix_base_int=\count363
-\l__siunitx_unit_prefix_gram_int=\count364
-\l__siunitx_number_product_int=\count365
-\c__siunitx_one_fill_skip=\skip99
-\l__siunitx_table_unit_align_skip=\skip100
-\l__siunitx_table_exponent_dim=\dimen198
-\l__siunitx_table_integer_dim=\dimen199
-\l__siunitx_table_mantissa_dim=\dimen256
-\l__siunitx_table_marker_dim=\dimen257
-\l__siunitx_table_result_dim=\dimen258
-\l__siunitx_table_uncert_dim=\dimen259
-\l__siunitx_table_fill_pre_dim=\dimen260
-\l__siunitx_table_fill_post_dim=\dimen261
-\l__siunitx_table_fill_mid_dim=\dimen262
-\l__siunitx_table_pre_box=\box94
-\l__siunitx_table_post_box=\box95
-\l__siunitx_table_mantissa_box=\box96
-\l__siunitx_table_result_box=\box97
-\l__siunitx_table_number_align_skip=\skip101
-\l__siunitx_table_text_align_skip=\skip102
 
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/translator\translator.sty
-Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
-)) (C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/wasysym\wasysym.sty
+! Package siunitx Error: Support package expl3 too old.
+
+See the siunitx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30   }
+        
+You need to update your installation of the bundles 'l3kernel' and 'l3packages'
+.
+Loading siunitx will abort!
+
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/wasysym\wasysym.sty"
 Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 \symwasy=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
 )
-("I:\Program Files\MiKTeX 2.9\tex/latex/multirow\multirow.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/multirow\multirow.sty"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
-\multirow@colwidth=\skip103
-\multirow@cntb=\count366
-\multirow@dima=\skip104
-\bigstrutjot=\dimen263
+\multirow@colwidth=\skip99
+\multirow@cntb=\count350
+\multirow@dima=\skip100
+\bigstrutjot=\dimen195
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/xcolor\xcolor.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count367
+\rownum=\count351
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -1143,89 +975,60 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/enumitem\enumitem.sty
+("C:\Program Files\MiKTeX 2.9\tex/latex/enumitem\enumitem.sty"
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip105
-\enit@outerparindent=\dimen264
+\labelindent=\skip101
+\enit@outerparindent=\dimen196
 \enit@toks=\toks56
-\enit@inbox=\box98
-\enit@count@id=\count368
-\enitdp@description=\count369
+\enit@inbox=\box90
+\enit@count@id=\count352
+\enitdp@description=\count353
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
-Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 111.
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+Package hyperref Info: Option `unicode' set `false' on input line 113.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 113.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 113.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 113.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 113.
+Package hyperref Info: Option `colorlinks' set `true' on input line 113.
+Package hyperref Info: Option `linktocpage' set `true' on input line 113.
 
-Package hyperref Info: Option `unicode' set `false' on input line 111.
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bookmark.sty"
+Package: bookmark 2019/06/04 v1.27 PDF bookmarks (HO)
 
-Package hyperref Warning: XeTeX driver only supports `unicode=true'. Ignoring
-(hyperref)                option setting `unicode=false' on input line 111.
-
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 111.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 111.
-Package hyperref Info: Option `pdffitwindow' set `true' on input line 111.
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\se-ascii-print.def"
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
-
-)
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 111.
-Package hyperref Info: Option `colorlinks' set `true' on input line 111.
-Package hyperref Info: Option `linktocpage' set `true' on input line 111.
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bookmark.sty"
-Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bkm-dvipdfm.def"
-File: bkm-dvipdfm.def 2016/05/17 v1.26 bookmark driver for dvipdfm (HO)
-\BKM@id=\count370
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\atenddvi.sty"
-Package: atenddvi 2016/05/16 v1.2 At end DVI hook (HO)
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\zref-abspage.sty"
-Package: zref-abspage 2018/11/21 v2.27 Module abspage for zref (HO)
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\zref-base.sty"
-Package: zref-base 2018/11/21 v2.27 Module base for zref (HO)
-Package zref Info: New property list: main on input line 759.
-Package zref Info: New property: default on input line 760.
-Package zref Info: New property: page on input line 761.
-)
-\c@abspage=\count371
-Package zref Info: New property: abspage on input line 62.
-)
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\zref-lastpage.sty"
-Package: zref-lastpage 2018/11/21 v2.27 Module lastpage for zref (HO)
-Package zref Info: New property list: LastPage on input line 55.
-))))
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\bkm-pdftex.def"
+File: bkm-pdftex.def 2019/06/04 v1.27 bookmark driver for pdfTeX (HO)
+\BKM@id=\count354
+))
 (Anteproyecto.aux (Cubierta/Cubierta.aux)
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
  (Cubierta/Contenido.aux)
-(Caps/Resumen.aux) (Caps/Introduccion.aux)
-(Caps/Aspectos_teoricos_y_practicos.aux) (Caps/Diseno_del_espectrometro.aux)
-(Caps/Implementacion.aux) (Caps/Conclusiones.aux) (Caps/Anexos.aux))
+(Caps/Resumen.aux))
 \openout1 = `Anteproyecto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 167.
-LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 122.
 
+*geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -1259,138 +1062,55 @@ LaTeX Font Info:    ... okay on input line 167.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 167.
-LaTeX Info: Redefining \% on input line 167.
-\AtBeginShipoutBox=\box99
-Package hyperref Info: Link coloring ON on input line 167.
-("I:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count355
+\scratchdimen=\dimen197
+\scratchbox=\box91
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks57
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen198
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks58
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2019/11/24 v2.7 Base part for package epstopdf
 
-("I:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\refcount.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+42.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 460.
+)
+LaTeX Info: Redefining \. on input line 122.
+LaTeX Info: Redefining \% on input line 122.
+\AtBeginShipoutBox=\box92
+Package hyperref Info: Link coloring ON on input line 122.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\refcount.sty"
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 )
-("I:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count372
+\c@section@level=\count361
 )
-LaTeX Info: Redefining \ref on input line 167.
-LaTeX Info: Redefining \pageref on input line 167.
-LaTeX Info: Redefining \nameref on input line 167.
-\c@lstlisting=\count373
+LaTeX Info: Redefining \ref on input line 122.
+LaTeX Info: Redefining \pageref on input line 122.
+LaTeX Info: Redefining \nameref on input line 122.
+\c@lstlisting=\count362
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
-Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/base\ts1enc.def"
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-)
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/translator\translator-basic
--dictionary-English.dict
-Dictionary: translator-basic-dictionary, Language: English 
-)
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/siunitx\siunitx-abbreviatio
-ns.cfg
-File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
-)
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 167.
- ("I:\Program Files\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 167.
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 167.
-
-("I:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for U+wasy on input line 167.
-
-(C:\Users\user\AppData\Roaming\MiKTeX\2.9\tex/latex/wasysym\uwasy.fd
-File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
 \openout2 = `Cubierta/Cubierta.aux'.
 
 
@@ -1398,1393 +1118,111 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 
 
 
-] [2] [3
+{C:/Users/labfisica/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3
 
-] [4] [5] [6] [7] [8] [9
+] [4] [5] [6] [7] [8]
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 100.
+
+[9
 
 ] [10])
 \openout2 = `Cubierta/Contenido.aux'.
 
-
-(Cubierta/Contenido.tex (Anteproyecto.toc
-
-LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
-(Font)              using `TU/lmr/bx/n' instead on input line 1.
+ (Cubierta/Contenido.tex (Anteproyecto.toc
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 1.
 
 
-Package spanish Warning: Replacing `TU/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 1.
+("C:\Program Files\MiKTeX 2.9\tex/latex/jknappen\ursfs.fd"
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
 
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 1.
+
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/wasysym\uwasy.fd"
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
 LaTeX Info: Redefining \. on input line 2.
 LaTeX Info: Redefining \% on input line 2.
-
-Package spanish Warning: Replacing `TU/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 3.
-
-
-Package spanish Warning: Replacing `TU/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 4.
-
-
-Package spanish Warning: Replacing `TU/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 5.
-
-
-Package spanish Warning: Replacing `TU/lmr/bx/sc' by 
-(spanish)                faked small caps on input line 6.
-
-[11
-
-
-] [12])
+)
 \tf@toc=\write4
 \openout4 = `Anteproyecto.toc'.
 
- [13] (Anteproyecto.lof
+ [11
+
+
+]
+(Anteproyecto.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-
-Overfull \hbox (15.87361pt too wide) in paragraph at lines 12--12
- [][] []\TU/lmr/m/n/12 Configuraciones de espectrómetros propuestas por Eber–Fa
-stie y de Czerny– 
- []
-
-[14] [15])
+)
 \tf@lof=\write5
 \openout5 = `Anteproyecto.lof'.
 
- [16] (Anteproyecto.lot
+ [12] (Anteproyecto.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lot=\write6
 \openout6 = `Anteproyecto.lot'.
 
- [17] [18
+ [13] [14
 
-] [19])
+] [15])
 \openout2 = `Caps/Resumen.aux'.
 
  (Caps/Resumen.tex
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[16
 
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-
- []
-
-[20
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-
- []
-
-
-LaTeX Warning: Command \r invalid in math mode on input line 21.
-
-Missing character: There is no Å in font cmmi12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
-
- []
-
-[21])
-\openout2 = `Caps/Introduccion.aux'.
-
- (Caps/Introduccion.tex
-Capítulo 1.
-
-LaTeX Warning: Citation `Guy_2005' on page 3 undefined on input line 5.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-LaTeX Warning: Citation `Sutton_1987' on page 3 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Doi_2006' on page 3 undefined on input line 7.
-
-
-LaTeX Warning: Citation `Ritenour_2009' on page 3 undefined on input line 7.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-[3
-
-
-
-]
-
-LaTeX Warning: Citation `Huang_1991' on page 4 undefined on input line 13.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-LaTeX Warning: Citation `Huang_1991' on page 4 undefined on input line 15.
-
-
-LaTeX Warning: Citation `Hecht_2017' on page 4 undefined on input line 15.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-[4]
-
-LaTeX Warning: Citation `Fujimoto_2016' on page 5 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 5 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Puliafito_1995' on page 5 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Wojtkowski_2002' on page 5 undefined on input line 17.
-
-
-
-LaTeX Warning: Citation `Tearney_2001' on page 5 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Rollins_1999' on page 5 undefined on input line 17.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 5 undefined on input line 19.
-
-[5]
-
-LaTeX Warning: Citation `Huang_1991' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Fercher_1993' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Swanson_1993' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Puliafito_1995' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Hee_1995_a' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Hee_1998' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Hee_1995_b' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Hee_1995_c' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Hee_1996' on page 6 undefined on input line 25.
-
-
-LaTeX Warning: Citation `Schuman_1995' on page 6 undefined on input line 25.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 6 undefined on input line 27.
-
-
-LaTeX Warning: Citation `Brezinski_1996' on page 6 undefined on input line 27.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-[6]
-
-LaTeX Warning: Citation `Hee_1998' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Pitris_2000' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Pitris_2000' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Tearney_1998' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Izatt_1996' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Pitris_1998' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Citation `Hee_1998' on page 7 undefined on input line 29.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-
-LaTeX Warning: Citation `Ramos_2009' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Jang_2002' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Zhou_2015' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Wang_2017' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Baran_2016' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Bezerra_2009' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Olsen_2015' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Sinescu_2015' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Stifter_2007' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Loeb_2003' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Reeves_2002' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Sapozhnikova_2003' on page 7 undefined on input line 3
-1.
-
-
-LaTeX Warning: Citation `Chow_2009' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Ravichandran_2016' on page 7 undefined on input line 3
-1.
-
-
-LaTeX Warning: Citation `Meglinski_2010' on page 7 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Srimal_2015' on page 7 undefined on input line 31.
-
-[7]
-File: Imagenes/Cap_2/White_light_interferometry.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/White_light_interferometry.pdf>
-
-
-LaTeX Warning: Citation `Huang_1991' on page 8 undefined on input line 60.
-
-[8]
-
-LaTeX Warning: Citation `Fercher_1995' on page 9 undefined on input line 66.
-
-
-LaTeX Warning: Citation `Leitgeb_2003' on page 9 undefined on input line 66.
-
-
-LaTeX Warning: Citation `Wojtkowski_2004' on page 9 undefined on input line 66.
-
-
-
-LaTeX Warning: Citation `Chen_2005' on page 9 undefined on input line 66.
-
-
-LaTeX Warning: Citation `Nassif_2004' on page 9 undefined on input line 66.
-
-
-LaTeX Warning: Citation `Potsaid_2008' on page 9 undefined on input line 66.
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 9 undefined on input line 66.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-[9]
-
-LaTeX Warning: Citation `Dorrer_2000' on page 10 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Wojtkowski_2004' on page 10 undefined on input line 68
-.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-
- []
-
-[10]
-
-LaTeX Warning: Citation `Chinn_1997' on page 11 undefined on input line 70.
-
-
-LaTeX Warning: Citation `Chinn_1997' on page 11 undefined on input line 70.
-
-
-LaTeX Warning: Citation `Golubovic_1997' on page 11 undefined on input line 70.
-
-
-
-LaTeX Warning: Citation `Oh_2005' on page 11 undefined on input line 70.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-LaTeX Warning: Citation `Choma_2003' on page 11 undefined on input line 72.
-
-
-LaTeX Warning: Citation `Liu_2015' on page 11 undefined on input line 72.
-
-
-LaTeX Warning: Citation `Zhao_2000' on page 11 undefined on input line 72.
-
-
-LaTeX Warning: Citation `Yun_2006' on page 11 undefined on input line 72.
-
-
-LaTeX Warning: Citation `Vakoc_2007' on page 11 undefined on input line 72.
-
-[11]
-
-LaTeX Warning: Citation `Fujimoto_2016' on page 12 undefined on input line 85.
-
-
-LaTeX Warning: Citation `Cuartas_2018' on page 12 undefined on input line 85.
-
-
-LaTeX Warning: Citation `Ruiz_2017' on page 12 undefined on input line 85.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-[12]
-
-LaTeX Warning: Citation `Ball_2001' on page 13 undefined on input line 87.
-
-
-LaTeX Warning: Citation `Neumann_2014' on page 13 undefined on input line 87.
-
-
-LaTeX Warning: Citation `Saptari_2003' on page 13 undefined on input line 87.
-
-
-LaTeX Warning: Citation `August_2013' on page 13 undefined on input line 87.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-[13]
-
-LaTeX Warning: Citation `Lee_2009' on page 14 undefined on input line 89.
-
-
-LaTeX Warning: Citation `Wojtkowski_2002' on page 14 undefined on input line 89
-.
-
-
-LaTeX Warning: Citation `Wu_2017' on page 14 undefined on input line 89.
-
-
-LaTeX Warning: Citation `Hu_2007' on page 14 undefined on input line 89.
-
-
-LaTeX Warning: Citation `Gelikonow_2009' on page 14 undefined on input line 89.
-
-
-
-LaTeX Warning: Citation `Lee_2009' on page 14 undefined on input line 89.
-
-
-LaTeX Warning: Citation `Lan_2017' on page 14 undefined on input line 89.
-
-
-LaTeX Warning: Citation `Wu_2017' on page 14 undefined on input line 89.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-[14]) [15] [16]
-\openout2 = `Caps/Aspectos_teoricos_y_practicos.aux'.
-
- (Caps/Aspectos_teoricos_y_practicos.tex
-Capítulo 2.
-
-LaTeX Warning: Citation `RAE_2014' on page 17 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Szabo_2004' on page 17 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Duguay_1971' on page 17 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Fercher_1988' on page 17 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 17 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Fercher_1988' on page 17 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Huang_1991' on page 17 undefined on input line 17.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-[17
-
-
-
-]
-
-LaTeX Warning: Citation `Fercher_1995' on page 18 undefined on input line 19.
-
-
-LaTeX Warning: Citation `Choma_2003' on page 18 undefined on input line 19.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-[18]
-
-LaTeX Warning: Citation `Chinn_1997' on page 19 undefined on input line 21.
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 19 undefined on input line 21.
-
-
-LaTeX Warning: Citation `Drexler_2008' on page 19 undefined on input line 21.
-
-[19]
-File: Imagenes/Cap_2/OCT_Scheme.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/OCT_Scheme.pdf>
- [20]
-
-LaTeX Warning: Citation `Hecht_2017' on page 21 undefined on input line 43.
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 21 undefined on input line 48.
-
-[21]
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 22 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 22 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Goodman_2007' on page 22 undefined on input line 68.
-
-
-LaTeX Warning: Citation `Cuartas_2018' on page 22 undefined on input line 68.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-
- []
-
-[22]
-
-LaTeX Warning: Citation `Liu_2009' on page 23 undefined on input line 75.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-[23]
-File: Imagenes/Cap_2/OCT_Signal.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/OCT_Signal.pdf>
- [24]
-
-LaTeX Warning: Citation `Goodman_1985' on page 25 undefined on input line 96.
-
-File: Imagenes/Cap_2/S(k)_Gamma.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/S(k)_Gamma.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
-
- []
-
-File: Imagenes/Cap_2/SD-OCT_Scheme.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/SD-OCT_Scheme.pdf>
-[25] [26]
-File: Imagenes/Cap_2/FD-OCT_A-line.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/FD-OCT_A-line.pdf>
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 27 undefined on input line 154.
-
-
-[27]
-
-LaTeX Warning: Citation `Parsa_1989' on page 28 undefined on input line 159.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
-[28]
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 29 undefined on input line 171.
-
-
-
-LaTeX Warning: Citation `Aguirre_2003' on page 29 undefined on input line 171.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
-
- []
-
-
-LaTeX Warning: Citation `Lee_2009' on page 29 undefined on input line 173.
-
-[29]
-
-LaTeX Warning: Citation `Wojtkowski_2004' on page 30 undefined on input line 18
-8.
-
-
-LaTeX Warning: Citation `Lee_2009' on page 30 undefined on input line 193.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
-
- []
-
-[30] [31]
-
-LaTeX Warning: Citation `James_2007' on page 32 undefined on input line 203.
-
-
-LaTeX Warning: Citation `James_2007' on page 32 undefined on input line 203.
-
-
-LaTeX Warning: Citation `Neumann_2015' on page 32 undefined on input line 203.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-
- []
-
-
-LaTeX Warning: Citation `James_1969' on page 32 undefined on input line 205.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
-
- []
-
-File: Imagenes/Cap_2/SpecConfig.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/SpecConfig.pdf>
-[32]
-
-LaTeX Warning: Citation `Neumann_2014' on page 33 undefined on input line 220.
-
-
-LaTeX Warning: Citation `Neumann_2014' on page 33 undefined on input line 220.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-
- []
-
-File: Imagenes/Cap_2/LittrowConfig.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/LittrowConfig.pdf>
-
-LaTeX Warning: Citation `Neumann_2014' on page 33 undefined on input line 227.
-
-
-LaTeX Warning: Citation `Neumann_2014' on page 33 undefined on input line 227.
-
-
-LaTeX Warning: Citation `Neumann_2014' on page 33 undefined on input line 231.
-
-
-LaTeX Warning: Citation `Neumann_2015' on page 33 undefined on input line 231.
-
-[33]
-File: Imagenes/Cap_2/Ebert-Czerny.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/Ebert-Czerny.pdf>
-
-
-LaTeX Warning: Citation `Neumann_2014' on page 34 undefined on input line 238.
-
-
-LaTeX Warning: Citation `Neumann_2014' on page 34 undefined on input line 238.
-
-
-LaTeX Warning: Citation `Hecht_2017' on page 34 undefined on input line 246.
-
-
-LaTeX Warning: Citation `Neumann_2014' on page 34 undefined on input line 246.
-
-
-LaTeX Warning: Citation `Ball_2001' on page 34 undefined on input line 246.
-
-
-LaTeX Warning: Citation `Palmer_2005' on page 34 undefined on input line 246.
-
-[34]
-
-LaTeX Warning: Citation `Hecht_2017' on page 35 undefined on input line 252.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-[35]
-File: Imagenes/Cap_2/Diffraction_Slit.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/Diffraction_Slit.pdf>
- [36]
-
-LaTeX Warning: Citation `Goodman_2005' on page 37 undefined on input line 268.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--284
-
- []
-
-[37]
-
-LaTeX Warning: Citation `Hecht_2017' on page 38 undefined on input line 285.
-
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-
- []
-
-File: Imagenes/Cap_2/DiffractionIntensity.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/DiffractionIntensity.pdf>
-[39]
-
-LaTeX Warning: Citation `Neumann_2014' on page 40 undefined on input line 311.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-
- []
-
-File: Imagenes/Cap_2/DiffractionGrating.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/DiffractionGrating.pdf>
-[40]
-
-LaTeX Warning: Citation `Neumann_2014' on page 41 undefined on input line 342.
-
-[41]
-
-LaTeX Warning: Citation `Hecht_2017' on page 42 undefined on input line 354.
-
-[42]
-File: Imagenes/Cap_2/Prism_Scheme.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/Prism_Scheme.pdf>
-
-
-LaTeX Warning: Citation `Hecht_2017' on page 43 undefined on input line 384.
-
-
-LaTeX Warning: Citation `Neumann_2014' on page 43 undefined on input line 389.
-
-[43]
-
-LaTeX Warning: Citation `Jenkins_2001' on page 44 undefined on input line 399.
-
-
-LaTeX Warning: Citation `Neumann_2015' on page 44 undefined on input line 405.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
-
- []
-
-File: Imagenes/Cap_2/Grism.pdf Graphic file (type pdf)
-<use Imagenes/Cap_2/Grism.pdf>
-[44]
-
-LaTeX Warning: Citation `Klink_1995' on page 45 undefined on input line 429.
-
-
-LaTeX Warning: Citation `James_2007' on page 45 undefined on input line 429.
-
-[45]
-
-LaTeX Warning: Citation `Lee_2009' on page 46 undefined on input line 431.
-
-
-LaTeX Warning: Citation `Dorrer_2000' on page 46 undefined on input line 431.
-
-
-LaTeX Warning: Citation `Hu_2007' on page 46 undefined on input line 431.
-
-
-LaTeX Warning: Citation `Gelikonow_2009' on page 46 undefined on input line 431
-.
-
-
-LaTeX Warning: Citation `Lee_2009' on page 46 undefined on input line 431.
-
-
-LaTeX Warning: Citation `Lan_2017' on page 46 undefined on input line 431.
-
-
-LaTeX Warning: Citation `Wu_2017' on page 46 undefined on input line 431.
-
-
-LaTeX Warning: Citation `Neumann_2014' on page 46 undefined on input line 442.
-
-[46]
-
-LaTeX Warning: Citation `Neumann_2015' on page 47 undefined on input line 452.
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 47 undefined on input line 452.
-
-
-[47]) [48]
-\openout2 = `Caps/Diseno_del_espectrometro.aux'.
-
- (Caps/Diseno_del_espectrometro.tex
-Capítulo 3.
-
-LaTeX Warning: Citation `Lee_2015' on page 49 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Lan_2017' on page 49 undefined on input line 11.
-
-[49
-
-
-
-]
-
-LaTeX Warning: Citation `Parsa_1989' on page 50 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Srimal_2015' on page 50 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Chow_2009' on page 50 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Ravichandran_2016' on page 50 undefined on input line 
-17.
-
-
-LaTeX Warning: Citation `Reeves_2002' on page 50 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Loeb_2003' on page 50 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Sapozhnikova_2003' on page 50 undefined on input line 
-17.
-
-
-LaTeX Warning: Citation `Gates_1965' on page 50 undefined on input line 17.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-LaTeX Warning: Citation `Fujimoto_2015' on page 50 undefined on input line 21.
-
-[50]
-
-LaTeX Warning: Citation `Kim_2018' on page 51 undefined on input line 35.
-
-[51]
-File: Imagenes/Cap_3/Detector.pdf Graphic file (type pdf)
-<use Imagenes/Cap_3/Detector.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-[52]
-File: Imagenes/Cap_3/Spectrometer_layout.pdf Graphic file (type pdf)
-<use Imagenes/Cap_3/Spectrometer_layout.pdf>
- [53]
-
-LaTeX Warning: Citation `Hecht_2017' on page 54 undefined on input line 79.
-
-
-LaTeX Warning: Citation `Hecht_2017' on page 54 undefined on input line 79.
-
-
-LaTeX Warning: Citation `Goodman_2005' on page 54 undefined on input line 79.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-[54] [55]
-File: Imagenes/Cap_3/Parabollic_mirror.pdf Graphic file (type pdf)
-<use Imagenes/Cap_3/Parabollic_mirror.pdf>
-File: Imagenes/Cap_3/Collimator_comparision.pdf Graphic file (type pdf)
-<use Imagenes/Cap_3/Collimator_comparision.pdf>
- [56]
-
-LaTeX Warning: Citation `Hu_2007' on page 57 undefined on input line 115.
-
-[57]
-
-LaTeX Warning: Citation `Lan_2017' on page 58 undefined on input line 120.
-
-File: Imagenes/Cap_3/GrismOptimization.pdf Graphic file (type pdf)
-<use Imagenes/Cap_3/GrismOptimization.pdf>
-[58]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-[59]
-Overfull \hbox (10.16527pt too wide) in paragraph at lines 139--140
-[]\TU/lmr/m/n/12 Los mínimos valores de $\OML/cmm/m/it/12 f [][]$ \TU/lmr/m/n/1
-2 se obtienen con $\OML/cmm/m/it/12 d \OT1/cmr/m/n/12 =$ \TU/lmr/m/n/12 600 mm$
-[]$, seguido de $\OML/cmm/m/it/12 d \OT1/cmr/m/n/12 =$ \TU/lmr/m/n/12 1200 mm$[
-]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-
- []
-
-[60]
-Overfull \hbox (10.34328pt too wide) in paragraph at lines 155--164
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-
- []
-
-[61]
-File: Imagenes/Cap_3/Focusing_comparision.pdf Graphic file (type pdf)
-<use Imagenes/Cap_3/Focusing_comparision.pdf>
- [62]
-
-LaTeX Warning: Citation `Zemax_2018' on page 63 undefined on input line 187.
-
-[63]
-File: Imagenes/Cap_3/Spectrometer_model.pdf Graphic file (type pdf)
-<use Imagenes/Cap_3/Spectrometer_model.pdf>
-
-
-LaTeX Warning: Citation `Pulido_2012' on page 64 undefined on input line 233.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
-
- []
-
-[64]
-File: Imagenes/Cap_3/Spots_analysis.pdf Graphic file (type pdf)
-<use Imagenes/Cap_3/Spots_analysis.pdf>
-
-Overfull \hbox (2.28839pt too wide) in paragraph at lines 250--259
- [][] 
- []
-
-[65] [66]
-File: Imagenes/Cap_3/Linear-k.pdf Graphic file (type pdf)
-<use Imagenes/Cap_3/Linear-k.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
-
- []
-
-[67]
-
-LaTeX Warning: Citation `Zemax_2018' on page 68 undefined on input line 282.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
-
- []
-
-
-LaTeX Warning: Citation `Malacara_2007' on page 68 undefined on input line 284.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-
- []
-
-[68]
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
-
- []
-
-[69]
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-
- []
-
-
-Overfull \hbox (12.9715pt too wide) in paragraph at lines 296--322
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
-
- []
-
-[70] [71]
-File: Imagenes/Cap_3/Mechnical_design/CAD_Model/Spectrometer_CAD.pdf Graphic fi
-le (type pdf)
-<use Imagenes/Cap_3/Mechnical_design/CAD_Model/Spectrometer_CAD.pdf>
- [72]
-File: Imagenes/Cap_3/Mechnical_design/CAD_Model/Collimator_CAD.pdf Graphic file
- (type pdf)
-<use Imagenes/Cap_3/Mechnical_design/CAD_Model/Collimator_CAD.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
-
- []
-
-[73]
-File: Imagenes/Cap_3/Mechnical_design/CAD_Model/Dispersion_group_CAD.pdf Graphi
-c file (type pdf)
-<use Imagenes/Cap_3/Mechnical_design/CAD_Model/Dispersion_group_CAD.pdf>
-File: Imagenes/Cap_3/Mechnical_design/CAD_Model/Dispersion_group_mount.pdf Grap
-hic file (type pdf)
-<use Imagenes/Cap_3/Mechnical_design/CAD_Model/Dispersion_group_mount.pdf>
-
-
-LaTeX Warning: Citation `Yoder_2000' on page 74 undefined on input line 377.
-
-
-LaTeX Warning: Citation `Yoder_2015' on page 74 undefined on input line 377.
-
-
-LaTeX Warning: Citation `Yoder_2000' on page 74 undefined on input line 377.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-
- []
-
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 383--384
-
- []
-
-[75]
-File: Imagenes/Cap_3/Mechnical_design/CAD_Model/Focusing_CAD.pdf Graphic file (
-type pdf)
-<use Imagenes/Cap_3/Mechnical_design/CAD_Model/Focusing_CAD.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
-
- []
-
-[76]
-
-LaTeX Warning: Citation `Cano_2018' on page 77 undefined on input line 422.
-
-
-LaTeX Warning: Citation `Rao_2011' on page 77 undefined on input line 422.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--423
-
- []
-
-[77]
-
-LaTeX Warning: Citation `Yoder_2000' on page 78 undefined on input line 430.
-
-
-LaTeX Warning: Citation `Yoder_2000' on page 78 undefined on input line 430.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
-
- []
-
-[78]
-
-LaTeX Warning: Citation `Schoot_2018' on page 79 undefined on input line 432.
-
-
-LaTeX Warning: Citation `Ansys_2013' on page 79 undefined on input line 432.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
-
- []
-
-[79]
-
-LaTeX Warning: Citation `Yoder_2000' on page 80 undefined on input line 440.
-
-
-LaTeX Warning: Citation `Yoder_2000' on page 80 undefined on input line 440.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
-
- []
-
-
-LaTeX Warning: Citation `Rao_2011' on page 80 undefined on input line 442.
-
-
-LaTeX Warning: Citation `Hibbeler_2008' on page 80 undefined on input line 442.
-
-
-
-LaTeX Warning: Citation `Rao_2011' on page 80 undefined on input line 442.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
-
- []
-
-[80]
-File: Imagenes/Cap_3/Mechnical_design/Ansys/Grating_mesh.pdf Graphic file (type
- pdf)
-<use Imagenes/Cap_3/Mechnical_design/Ansys/Grating_mesh.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
-
- []
-
-[81]
-File: Imagenes/Cap_3/Mechnical_design/Ansys/Grating_disp.pdf Graphic file (type
- pdf)
-<use Imagenes/Cap_3/Mechnical_design/Ansys/Grating_disp.pdf>
-
-
-LaTeX Warning: Citation `Schoot_2018' on page 82 undefined on input line 464.
-
-
-LaTeX Warning: Citation `Yoder_2000' on page 82 undefined on input line 464.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
-
- []
-
-[82]
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
-
- []
-
-[83]
-File: Imagenes/Cap_3/Mechnical_design/Ansys/Prism_mesh.pdf Graphic file (type p
-df)
-<use Imagenes/Cap_3/Mechnical_design/Ansys/Prism_mesh.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
-
- []
-
-[84]
-File: Imagenes/Cap_3/Mechnical_design/Ansys/Prism_disp.pdf Graphic file (type p
-df)
-<use Imagenes/Cap_3/Mechnical_design/Ansys/Prism_disp.pdf>
-
-
-LaTeX Warning: Citation `Hibbeler_2008' on page 85 undefined on input line 492.
-
-
-
-LaTeX Warning: Citation `Hibbeler_2008' on page 85 undefined on input line 492.
-
-
-
-LaTeX Warning: Citation `MatWeb_2018' on page 85 undefined on input line 492.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
-
- []
-
-[85]
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
-
- []
-
-File: Imagenes/Cap_3/Mechnical_design/Ansys/Cantilever_mesh.pdf Graphic file (t
-ype pdf)
-<use Imagenes/Cap_3/Mechnical_design/Ansys/Cantilever_mesh.pdf>
-[86] [87]
-File: Imagenes/Cap_3/Mechnical_design/Ansys/Dispersion_group_disp.pdf Graphic f
-ile (type pdf)
-<use Imagenes/Cap_3/Mechnical_design/Ansys/Dispersion_group_disp.pdf>
-File: Imagenes/Cap_3/Mechnical_design/Ansys/Lens_detector_disp.pdf Graphic file
- (type pdf)
-<use Imagenes/Cap_3/Mechnical_design/Ansys/Lens_detector_disp.pdf>
-) [88] [89]
-\openout2 = `Caps/Implementacion.aux'.
-
- (Caps/Implementacion.tex
-Capítulo 4.
-[90
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-File: Imagenes/Cap_4/Parabolic_mirror_align_rays.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/Parabolic_mirror_align_rays.pdf>
-[91]
-File: Imagenes/Cap_4/Rotary_mirror_align_rays.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/Rotary_mirror_align_rays.pdf>
-File: Imagenes/Cap_4/Grating_align_rays.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/Grating_align_rays.pdf>
-File: Imagenes/Cap_4/Prism_align_rays.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/Prism_align_rays.pdf>
- [92]
-Overfull \vbox (156.82892pt too high) has occurred while \output is active []
-
-
-[93]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-[94]
-File: Imagenes/Cap_4/Lens_align_rays.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/Lens_align_rays.pdf>
- [95]
-File: Imagenes/Cap_4/Detector_align_rays.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/Detector_align_rays.pdf>
- [96]
-File: Imagenes/Cap_4/Spatial_filter_align.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/Spatial_filter_align.pdf>
-File: Imagenes/Cap_4/Spectrometer_align.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/Spectrometer_align.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-[97] [98]
-
-LaTeX Warning: Command \r invalid in math mode on input line 134.
-
-Missing character: There is no Å in font cmmi12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
-[99]
-Overfull \hbox (5.43794pt too wide) in paragraph at lines 153--160
- [][] 
- []
-
-File: Imagenes/Cap_4/k-P_calibration.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/k-P_calibration.pdf>
-[100]
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-[101]
-File: Imagenes/Cap_4/Spectral_calibration.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/Spectral_calibration.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
-
- []
-
-[102]
-File: Imagenes/Cap_4/LabVIEW_GUI.pdf Graphic file (type pdf)
-<use Imagenes/Cap_4/LabVIEW_GUI.pdf>
-) [103] [104]
-\openout2 = `Caps/Conclusiones.aux'.
-
- (Caps/Conclusiones.tex
-Capítulo 5.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-[105
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-[106]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-[107]
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 29--224
-
- []
-
-[108]
-Package atenddvi Info: Last page = 128.
- [109]
+] [17])
 No file Anteproyecto.bbl.
-\openout2 = `Caps/Anexos.aux'.
-
-(Caps/Anexos.tex
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-[110
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 170.
+(Anteproyecto.aux (Cubierta/Cubierta.aux)
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
+ (Cubierta/Contenido.aux)
+(Caps/Resumen.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 170.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.72pt have occurred.
 
- []
+ ) 
+Here is how much of TeX's memory you used:
+ 26890 strings out of 492484
+ 443356 string characters out of 3131039
+ 589530 words of memory out of 3000000
+ 30764 multiletter control sequences out of 15000+200000
+ 544046 words of font info for 56 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,6n,96p,1523b,530s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\labfisica\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecxc1200.pk> <C:\Users\labfisica\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecbx1728.pk> <C:\Users\labfisica\AppData\Local\MiKTeX\2.9\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\labfisica\AppData\Local\
+MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\labfisica\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Us
+ers\labfisica\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
+200.pk>
+Output written on Anteproyecto.pdf (17 pages, 99457 bytes).
+PDF statistics:
+ 374 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-[111]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-
-Overfull \hbox (11.67188pt too wide) in paragraph at lines 100--101
-[]\TU/lmr/m/n/12 LC100.llb: Librería para desarrollo de software (disponible en
- [][]www.thorlabs.com[][]). 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-
- []
-
-[112]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-) [113]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 235.
- (Anteproyecto.aux
-
-Package atenddvi Warning: Rerun LaTeX, last page has changed.
-
-(Cubierta/Cubierta.aux)
-LaTeX Info: Redefining \. on input line 28.
-LaTeX Info: Redefining \% on input line 28.
- (Cubierta/Contenido.aux) (Cap
