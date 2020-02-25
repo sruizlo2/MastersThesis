@@ -114,53 +114,6 @@
 \usepackage[open, openlevel=2, atend]{bookmark}
 %%%%%%%%%%%%%%%%% Temas y subtemas tentativos en los capítulos %%%%%%%%%%%%%%%%
 
-% Resumen 
-
-% 1. Introducción
-%	1.1 Objetivo general
-%	1.2 Objetivos especifícos
-
-% 2. Aspectos teóricos y prácticos
-%	2.1. Tomografía de coherencia óptica
-%		2.1.1. Tomografía de coherencia óptica en el dominio espectral
-%	2.2. Espectrómetro óptico
-%	2.2.1. Elementos de dispersión
-%	2.2.1.1. Redes de difracción
-%	2.2.1.2. Prismas refractivos
-%	2.2.1.3. Combinación de elementos dispersivos
-%	2.2.2. Espectrómetros en SD-OCT
-%	2.2.3 Espectrómetro lineal en el número de onda
-
-% 3. Diseño óptico
-%	3.1. Consideraciones de diseño
-%	3.2. Descripción del diseño propuesto
-%	3.2.1. Apertura de entrada
-%	3.2.2. Colimador
-%	3.2.3. Grupo de dispersión
-%	3.2.4. Sistema de enfoque
-%	3.2.5. Detector
-%	3.3. Análisis óptico
-
-% 4. Diseño mecánico (?)
-
-%	4.2. Descripción del diseño propuesto
-%	4.3. Análisis de elementos finitos
-
-% 5. Implementación del sistema
-%	5.1. Proceso de alineación
-%	5.1.1. Espejo de colimación
-%	5.1.2. Fuente puntual
-%	5.1.3. Red de difracción
-%	5.1.4. Prisma
-%	5.1.5. Lente de enfoque
-%	5.1.6. Detector
-%	5.2. Software de adquisición de datos
-%	5.3. Calibración del sistema
-%	5.4. Resultados
-
-% 6. Conclusiones y trabajo futuro
-
-% Referencias
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Empezar documento %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
 
@@ -205,31 +158,11 @@
 \setcounter{secnumdepth}{4} % Empezar el cotador de páginas en 3
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%   Introducción
-\include{Caps/Introduccion}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Aspectos teóricos y prácticos
-\newpage
-\include{Caps/Aspectos_teoricos_y_practicos}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Diseño del espectrómetro
-\newpage
-\include{Caps/Diseno_del_espectrometro}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Implementación a nivel de laboratorio
-\newpage
-\include{Caps/Implementacion}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Conclusiones y trabajos futuros
-\newpage
-\include{Caps/Conclusiones}
+% \include{Caps/Introduccion}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%   Referencias
 \addcontentsline{toc}{chapter}{\bf Referencias}
 \bibliographystyle{unsrt}
 \bibliography{Bib_Source}
 
-\renewcommand{\appendixname}{Anexos}
-\renewcommand{\appendixtocname}{Anexos}
-\renewcommand{\appendixpagename}{Anexos}
-\include{Caps/Anexos}
 \end{document}
