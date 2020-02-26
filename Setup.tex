@@ -25,15 +25,45 @@
 }
 
 % Chapter titles setup
-%\usepackage{fourier, erewhon} {\MakeUppercase{\chaptername}\enspace\thechapter}
+%\usepackage{fourier, erewhon}
 \usepackage{microtype}
 \usepackage{titlesec}
-\titleformat{\chapter}[display]
-{\bf\large}
-{\MakeUppercase{\chaptername}\enspace\thechapter}
-{2ex}
-{\titlerule[1pt]\vspace{2ex}\MakeUppercase}%
-\titlespacing*{\chapter}{0pt}{0pt}{2ex}
+%\titleformat{\chapter}[display]
+%{\bf}
+%{\MakeUppercase{\chaptername}\enspace\thechapter}
+%{2ex}
+%{\titlerule[1pt]\vspace{2ex}\MakeUppercase}%
+%\titlespacing*{\chapter}{0pt}{0pt}{2ex}
+
+%\titleformat{\chapter}[display]
+%{\bfseries\centering}
+%{\thechapter.}
+%{0ex}
+%{\hspace{0.5em}\MakeUppercase}%
+%\titlespacing*{\chapter}{0pt}{0pt}{2ex}
+
+\titleformat{\chapter}{\bfseries\Large}{\ifnum\value{chapter}>0\relax\arabic{chapter}.~}{0pt}{}
+
+% Section titles setup
+\titleformat{\section}[display]
+{\centering\bfseries}
+{}
+{0em}
+{\thesection.\hspace{0.5em}}
+
+% subsection titles setup
+\titleformat{\subsection}[display]
+{\normalsize}
+{}
+{0em}
+{\thesubsection.\hspace{0.5em}}
 
 % Bookmarks in PDF
 \usepackage[open, openlevel=2, atend]{bookmark}
+
+% Babelbib
+\usepackage{babelbib}
+
+% Commands
+\newcommand{\invi}{\textit{in vivo}~}
+\newcommand{\exvi}{\textit{ex vivo}~}

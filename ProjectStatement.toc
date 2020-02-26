@@ -1,6 +1,0 @@
-\babel@toc {spanish}{}
-\contentsline {chapter}{\bf Lista de tablas}{\es@scroman {iii}}{section*.3}% 
-\contentsline {chapter}{\bf Lista de figuras}{\es@scroman {iv}}{section*.5}% 
-\contentsline {chapter}{\bf Lista de acr\IeC {\'o}nimos}{\es@scroman {v}}{section*.7}% 
-\contentsline {chapter}{\numberline {1}Planteamiento del problema}{3}{chapter.1}% 
-\contentsline {chapter}{\bf Referencias}{8}{chapter*.17}% 

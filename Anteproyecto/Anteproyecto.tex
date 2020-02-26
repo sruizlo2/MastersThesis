@@ -1,0 +1,198 @@
+\documentclass[letter, 12 pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{babelbib}
+\usepackage[spanish]{babel}	%Español
+\usepackage{caption}		%Nombre de figuras
+\usepackage{graphicx}		%Incluir figura
+\usepackage{cite}			%Para guiones en citas
+
+\usepackage{afterpage}		%Para dejar hojas en blanco y sin numerar
+    
+\usepackage{geometry}		%Tamaño de hoja y margenes
+ \geometry{
+ right = 3cm,
+ left = 3 cm,
+ top = 3 cm,
+ bottom = 3cm,
+ }
+ 
+\usepackage{hyperref}		%Hipervínculos dentro del texto
+\hypersetup{
+    colorlinks,
+    citecolor=blue,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=blue
+}
+
+\usepackage{sectsty}
+
+% Commands
+\newcommand{\invi}{\textit{in vivo}}
+\newcommand{\exvi}{\textit{ex vivo}}
+
+\setlength\parindent{0pt}
+\renewcommand{\contentsname}{Contenido}	%Contenido
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\tablename}{Tabla}	%Tabla
+\renewcommand{\refname}{REFERENCIAS}
+
+\begin{document}
+
+%Tamaño de la fuente en titulos
+\sectionfont{\fontsize{12}{1}\selectfont\centering}
+\subsectionfont{\fontsize{12}{1}\selectfont}
+\thispagestyle{empty}
+
+\begin{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				       			Portada
+ 
+CORRECCIÓN COMPUTACIONAL DE ABERRACIONES EN TOMOGRAFÍA DE COHERENCIA ÓPTICA SIN ESTABILIDAD DE FASE
+\vfill
+
+SEBASTIÁN RUIZ LOPERA
+\vfill
+
+ANTEPROYECTO: TESIS DE MAESTRÍA
+\vfill
+
+Director \\
+Ph.D. RENÉ RESTREPO GÓMEZ \\
+Área de instrumentación óptica espacial \\
+Instituto Nacional de Técnica Aeroespacial \\
+\vspace{\baselineskip}
+Co-director \\
+Ph.D. NÉSTOR URIBE PATARROYO \\
+Wellman center for photomedicine \\
+Harvard Medical School and Massachusetts General Hospital \\
+\vfill
+
+ESCUELA DE CIENCIAS \\
+DEPARTAMENTO DE CIENCIAS FÍSICAS \\
+MAESTRÍA EN FÍSICA APLICADA \\ 
+UNIVERSIDAD EAFIT \\
+2020
+\end{center}
+
+% Blank page after cover page
+\thispagestyle{empty}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				       				Contenido
+
+\leavevmode\thispagestyle{empty}\newpage
+\addtocounter{page}{-1}%
+\renewcommand{\contentsname}{CONTENIDO}
+\tableofcontents
+\newpage
+\setcounter{page}{3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				       			Introducción
+
+\section{INTRODUCCIÓN}
+
+---Definiciones iniciales de OCT, menciones al campo complejo: posibilidad de procesamiento, antecedentes en el grupo en posprocesamiento en OCT, aberraciones en OCT y formas de corregirlas.---
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%			    		Planteamiento del problema
+
+\section{PLANTEAMIENTO DEL PROBLEMA}
+
+---Centrarse ahora solo en corrección con posprocesamiento: se requiere estabilidad de fase (definirla). Cómo se ha logrado la estabilidad de fase para lograr corregir las aberraciones con posprocesamiento, configuraciones especiales, no se puede aplicar en los sistemas típicos.--- \\
+
+Dadas las limitaciones actuales de estabilidad de fase de los sistemas de OCT comunes, la propuesta para la tesis de maestría consiste en corregir aberraciones ópticas en tomogramas sin estabilidad de fase para mejorar la calidad de las imágenes, empleando técnicas de posprocesamiento y sin requerir modificaciones experimentales en los sistemas. \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				       			 Objetivos
+
+\section{OBJETIVOS}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   Objetivo general   %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Objetivo general}
+
+Corregir aberraciones ópticas en tomografía de coherencia óptica sin estabilidad de fase mediante técnicas de posprocesamiento.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%   Objetivos específicos   %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Objetivos específicos}
+
+\begin{itemize}
+    
+    \item Establecer el estado del arte de la corrección computacional de aberraciones ópticas en tomografía de coherencia óptica.
+    
+    \item Identificar las fuentes de inestabilidades de fase y los métodos de estabilización de tomogramas adquiridos mediante tomografía de coherencia óptica.
+    
+    \item Desarrollar un método de posprocesamiento que permita estabilizar la fase y corregir las aberraciones en tomogramas adquiridos sin estabilidad de fase.
+    
+    \item Evaluar el desempeño del método con datos experimentales \invi\ y \exvi\ con sistemas típicos con inestabilidades de fase.
+    
+    \item Identificar y analizar las posibles limitaciones del método. \\
+    
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				        		Marco teórico
+
+\section{MARCO TEÓRICO}
+
+	\subsection{Tomografía de coherencia óptica}
+---Introducir OCT, explicar la idea básica. Mostrar esquema genérico.---
+
+	\subsection{Aspectos experimentales}
+---Bajo la idea básica, explicar los tres tipos de configuraciones. Hacer mención a sistemas de campo completo y sus ventajas y desventajas.---
+
+		\subsubsection{Estabilidad de fase}
+---Definir la estabilidad de fase, tiempo de interrogación, y cómo es en cada sistemas experimental.---
+
+		\subsubsection{Fuentes de aberraciones ópticas}
+---Definir aberraciones, y las fuentes de aberraciones en OCT. centrarse en escaneo confocal: compromiso entre resolución lateral y profundidad de campo.---
+
+	\subsection{Modelo general de la señal de OCT}
+---Presentar el modelo resumido de la señal compleja obtenida en OCT, desde un punto de vista de propagación de la luz y no desde un punto de vista interferometrico como en las tesis pasadas.---
+
+	\subsection{Técnicas de corrección computacional de aberraciones}
+---Describir a grandes rasgos las técnicas de corrección computacional de aberraciones.---
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				       			Metodología
+
+\section{METODOLOGÍA}
+---Una etapa por cada objetivo, excepto el 1 y el 2 que están en una etapa.---\\
+
+Para el desarrollo de la tesis de maestría se proponen cinco etapas metodológicas. La primera etapa consiste en la búsqueda bibliográfica y estudio teórico de conceptos fundamentales dentro del contexto del trabajo. La segunda etapa es el desarrollo e implementación del método para resolver el problema planteado anteriormente. La tercera etapa comprende la evaluación experimental del método desarrollado con datos obtenidos con sistemas típicos. La cuarta etapa consiste en el análisis del método y de los resultados con el fin de determinar las limitaciones y el alcance del mismo. La última etapa corresponde a la documentación y publicación de los resultados de la tesis de maestría. \\
+
+	\subsection{Revisión bibliográfica y estudio teórico}
+La revisión del estado del arte establece el punto de partida para desarrollar el método que permitirá resolver el problema planteado. En esta etapa, se plantea la apropiación de conceptos básicos importantes, para luego identificar y estudiar las técnicas computacionales existentes para corrección de aberarciones ópticas. Adicionalmente, se estudiarán las configuraciones experimentales de los sistemas para identificar las fuentes de inestabilidades de fase, así como métodos de estabilización reportados en la literatura. Aunque esta etapa es constante a lo largo del trabajo, se concentra en el inicio del mismo, por tanto, en este momento se encuentra desarrollada casi por completo. Cómo fuentes bibliográficas se tienen las revistas de impacto en el área de la óptica que se concentran en editoriales de organizaciones como OSA, SPIE e IEEE, y como bases de datos se cuenta con las herramientas Scopus y ScienceDirect.\\
+
+
+	\subsection{Desarrollo e implementación}
+	
+	\subsection{Evaluación experimental}
+
+	\subsection{Análisis del método y del resultados}
+			
+	\subsection{Publicación y documentación de resultados}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				       				Cronograma
+
+\section{CRONOGRAMA}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%				      				Referencias
+
+\newpage
+
+\addcontentsline{toc}{section}{Referencias}
+
+\bibliographystyle{babunsrt-fl}
+\bibliography{Bib_Source}
+
+\end{document}
