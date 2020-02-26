@@ -1,6 +1,6 @@
-\contentsline {chapter}{\bf {Agradecimientos}}{\es@scroman {ix}}{chapter*.1}%
+\contentsline {chapter}{\bf {Agradecimientos}}{\es@scroman {vii}}{chapter*.1}% 
 \babel@toc {spanish}{}
-\contentsline {chapter}{\bf Lista de figuras}{\es@scroman {xii}}{section*.2}%
-\contentsline {chapter}{\bf Lista de tablas}{\es@scroman {xiii}}{section*.3}%
-\contentsline {chapter}{\bf Lista de acrónimos}{\es@scroman {xiv}}{section*.4}%
-\contentsline {chapter}{\bf Resumen}{\es@scroman {xvii}}{chapter*.6}%
+\contentsline {chapter}{\bf Lista de tablas}{\es@scroman {x}}{section*.3}% 
+\contentsline {chapter}{\bf Lista de figuras}{\es@scroman {xi}}{section*.4}% 
+\contentsline {chapter}{\bf Lista de acr\IeC {\'o}nimos}{\es@scroman {xii}}{section*.5}% 
+\contentsline {chapter}{\bf Referencias}{3}{chapter*.6}% 

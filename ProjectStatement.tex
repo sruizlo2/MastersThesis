@@ -1,13 +1,38 @@
 % Document class in letter with 12pt and book style
-\documentclass[letter, 12pt]{book}
+\documentclass[letter, 12pt,oneside]{book}
 
 % Load document setup
 \input{Setup}
 
 % Create document
 \begin{document}
+\renewcommand{\listfigurename}{Lista de figuras}
+\renewcommand{\listtablename}{Lista de tablas}
+\renewcommand{\contentsname}{Contenido}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\bibname}{Referencias}
+
+% Numerar páginas en romano
+\pagenumbering{roman} 
+
 % Load Cover
 \include{Cubierta/Cover}
 \include{Cubierta/Contenido}
+
+% Ahora numerar páginascon números arábigos
+\pagenumbering{arabic} % Ahora numerar páginascon números arábigos
+\setcounter{page}{3} % Empezar el cotador de páginas en 3
+\setcounter{secnumdepth}{4} % Empezar el cotador de páginas en 3
+
+\include{Caps/Planteamiento}
+\include{Caps/Objetivos}
+\include{Caps/Estado_del_arte}
+\include{Caps/Metodologia}
+\include{Caps/Cronograma}
+
+% Referencias
+\addcontentsline{toc}{chapter}{\bf Referencias}
+\bibliographystyle{unsrt}
+\bibliography{Bib_Source}
 
 \end{document}

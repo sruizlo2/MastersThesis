@@ -1,6 +1,8 @@
 
 % Acronyms
 \usepackage{acronym}
+% Spanish
+\usepackage[spanish]{babel}
 
 % Paper size and margins
 \usepackage{geometry}
@@ -22,13 +24,16 @@
 	urlcolor=blue
 }
 
-% Paper size
-%\paperheight 11in
-%\paperwidth 8.5in
+% Chapter titles setup
+%\usepackage{fourier, erewhon} {\MakeUppercase{\chaptername}\enspace\thechapter}
+\usepackage{microtype}
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\bf\large}
+{\MakeUppercase{\chaptername}\enspace\thechapter}
+{2ex}
+{\titlerule[1pt]\vspace{2ex}\MakeUppercase}%
+\titlespacing*{\chapter}{0pt}{0pt}{2ex}
 
-% Fontsize in titles
-%\usepackage{titlesec}
-%\titleformat{\section}
-%{\normalfont\centering\fontsize{12}{12}\bfseries}{\thesection}{1em}{}
-%\titleformat{\subsection}
-%{\normalfont\fontsize{12}{12}\bfseries}{\thesubsection}{1em}{}
+% Bookmarks in PDF
+\usepackage[open, openlevel=2, atend]{bookmark}
