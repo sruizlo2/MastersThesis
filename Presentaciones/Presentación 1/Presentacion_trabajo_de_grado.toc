@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Introducción}{2}{0}{1}
+\beamer@sectionintoc {2}{Planteamiento del problema}{3}{0}{2}
+\beamer@sectionintoc {3}{Marco teórico}{14}{0}{3}
