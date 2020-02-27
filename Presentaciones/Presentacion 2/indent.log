@@ -1,0 +1,25 @@
+Thu Jun  1 15:35:30 2017
+latexindent version 2.1R, a script to indent .tex files
+latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
+
+Directory for backup files and indent.log: .
+Reading defaultSettings.yaml from /usr/share/texlive/texmf-dist/scripts/latexindent/defaultSettings.yaml
+
+Home directory is /home/rrestrepo
+To specify user settings you would put indentconfig.yaml here: 
+	/home/rrestrepo/indentconfig.yaml
+
+Alternatively, you can use the hidden file .indentconfig.yaml as: 
+	/home/rrestrepo/.indentconfig.yaml
+
+Just out put to the terminal :)
+
+Line 563	 WARNING: \end{equation*} found on its own line, not matched to \begin{multicols}
+Line 617	 WARNING: \end{equation*} found on its own line, not matched to \begin{multicols}
+Line 622	 WARNING: \end{equation*} found on its own line, not matched to \begin{multicols}
+Line 628	 WARNING: \end{align*} found on its own line, not matched to \begin{multicols}
+Line 655	 WARNING: \end{equation*} found on its own line, not matched to \begin{multicols}
+Line Count of Presentacion_Trabajo_grado_CCuartas.tex: 1154
+Line Count of indented Presentacion_Trabajo_grado_CCuartas.tex: 1154
+
+Line counts of original file and indented file match

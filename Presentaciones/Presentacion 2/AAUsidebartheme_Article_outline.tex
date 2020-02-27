@@ -1,0 +1,881 @@
+\documentclass[10pt]{beamer}
+\usetheme[
+%%% options passed to the outer theme
+%    hidetitle,           % hide the (short) title in the sidebar
+%    hideauthor,          % hide the (short) author in the sidebar
+%    hideinstitute,       % hide the (short) institute in the bottom of the sidebar
+%    shownavsym,          % show the navigation symbols
+%    width=2cm,           % width of the sidebar (default is 2 cm)
+%    hideothersubsections,% hide all subsections but the subsections in the current section
+%    hideallsubsections,  % hide all subsections
+    right%left               % right of left position of sidebar (default is right)
+%%% options passed to the color theme
+%    lightheaderbg,       % use a light header background
+  ]{AAUsidebar}
+
+% If you want to change the colors of the various elements in the theme, edit and uncomment the following lines
+% Change the bar and sidebar colors:
+%\setbeamercolor{AAUsidebar}{fg=red!20,bg=red}
+%\setbeamercolor{sidebar}{bg=red!20}
+% Change the color of the structural elements:
+%\setbeamercolor{structure}{fg=red}
+% Change the frame title text color:
+%\setbeamercolor{frametitle}{fg=blue}
+% Change the normal text color background:
+%\setbeamercolor{normal text}{bg=gray!10}
+% ... and you can of course change a lot more - see the beamer user manual.
+
+
+%\usepackage[utf8, latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+% Or whatever. Note that the encoding and the font should match. If T1
+% does not look nice, try deleting the line with the fontenc.
+
+\usepackage{multicol}
+
+%\usepackage{helvet}
+\usepackage{fontspec}
+\usepackage{ragged2e}
+\usepackage{color}
+\usepackage[customcolors]{hf-tikz}
+\usepackage[skins,theorems]{tcolorbox}
+\tcbset{highlight math style={enhanced, colframe=red,colback=white,arc=0.5pt,boxrule=0.5pt}}
+
+\setmainfont[
+Extension=.otf,
+UprightFont= *-regular,
+BoldFont=*-bold,
+ItalicFont=*-italic,
+BoldItalicFont=*-bolditalic,
+]{texgyreheros}
+
+% colored hyperlinks
+\newcommand{\chref}[2]{%
+  \href{#1}{{\usebeamercolor[bg]{AAUsidebar}#2}}%
+}
+
+
+
+\title[Agenda]{Improving on-axis optical vortex generation by transmissive spatial light modulator using coherent phase-diversity}
+
+%\subtitle{\emph{Tesis Doctoral}} % could also be a conference name
+
+
+\newif\ifplacelogo % create a new conditional
+\placelogotrue % set it to true
+
+\author[]{\underline{Carlos Cuartas-Vélez}$^\ast$ \\René Restrepo$^\ast$ \\Santiago Echeverri-Chacón$^\ast$ \\Néstor Uribe-Patarroyo$^\bullet$}
+% - Give the names in the same order as they appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation. See the beamer manual for an example
+
+\institute[]{$^\ast$Applied Optics Group, Universidad EAFIT, Medell\'in, Colombia.\\
+$^\bullet$Wellman Center for Photomedicine, Harvard Medical School and Massachusetts General Hospital, Boston, ``USA.''.}
+
+\date{August 24, 2016}
+
+% specify a logo on the titlepage (you can specify additional logos an include them in 
+% institute command below
+%\pgfdeclareimage[height=1.8cm]{titlepagelogo}{AAUgraphics/aau_logo_new_circle.pdf} % placed on the title page
+
+\pgfdeclareimage[height=1.3cm]{titlepagelogo}{AAUgraphics/aau_logo_new_circle_mgh_2.pdf} % placed on the title page
+
+%\pgfdeclareimage[height=1.5cm]{titlepagelogo2}{graphics/aau_logo_new} % placed on the title page
+\titlegraphic{% is placed on the bottom of the title page
+  \pgfuseimage{titlepagelogo}
+%  \hspace{1cm}\pgfuseimage{titlepagelogo2}
+}
+
+
+\begin{document}
+% the titlepage
+{\aauwavesbg%
+\begin{frame}[plain,noframenumbering] % the plain option removes the sidebar and header from the title page
+  \titlepage
+\end{frame}}
+%%%%%%%%%%%%%%%%
+
+% TOC
+\begin{frame}{Agenda}{}
+\tableofcontents
+\end{frame}
+%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+
+% % % % % % % %
+% motivation for creating this theme
+\begin{frame}{Introduction}{Optical Vortices}
+
+
+ \begin{block}{Optical Vortices}
+Light structures containing screw phase dislocations and helical wavefront. \footnote{\scriptsize M. Dennis, K. O'Holleran, and M. Padgett. \textit{Progress in Optics}, \textbf{53} 293-363. Elsevier, 2009.}
+ \end{block}
+ 
+ \pause
+
+ \begin{block}{Characteristics}
+ \begin{itemize}
+ \item<1-> Circular symmetric profile when focusing.
+ \pause
+ \item<2-> Zero intensity at core.
+ \pause
+ \item<3-> Continuous spiral phase profile $[\exp (il\phi)]$, $l$ is the topological charge.
+\begin{center}
+\includegraphics[scale=0.7]{./AAUgraphics/ov_1}
+\end{center}
+
+ \end{itemize}
+ \end{block}
+\end{frame}
+
+\section{Optical Vortices}
+\subsection{Generation of Optical Vortices}
+\begin{frame}{Optical Vortices}{Generation of Optical Vortices}
+Optical vortices can be generated in many ways \footnote{\scriptsize M. Padgget, and L. Allen. Optical and Quantum Electronics, \textbf{31}(1) 1-12, 1999. \\
+Chen Jun, Kuang Deng-Feng, Gui Min, and Fang Zhi-Liang. Chinese Physics Letters \textbf{26}(1), 014202, (2009).\\
+M. Sosking, V. Gorshkon, M. Vasnetsov, J. Malos, and N. Heckenberg. Physical review A, \textbf{56}, 4064, (1997).}.
+
+\vspace{20pt}
+
+\includegraphics[scale=0.3]{./AAUgraphics/ov_gen_1}
+\end{frame}
+
+\begin{frame}{Optical Vortices}{Generation of Optical Vortices}
+\addtocounter{framenumber}{-1}
+Optical vortices can be generated in many ways \footnote[2]{\scriptsize M. Padgget, and L. Allen. Optical and Quantum Electronics, \textbf{31}(1) 1-12, 1999. \\
+Chen Jun, Kuang Deng-Feng, Gui Min, and Fang Zhi-Liang. Chinese Physics Letters \textbf{26}(1), 014202, (2009).\\
+M. Sosking, V. Gorshkon, M. Vasnetsov, J. Malos, and N. Heckenberg. Physical review A, \textbf{56}, 4064, (1997).}.
+
+\vspace{20pt}
+
+\includegraphics[scale=0.3]{./AAUgraphics/ov_gen_2}
+\end{frame}
+
+\begin{frame}{Optical Vortices}{Generation of Optical Vortices}
+\addtocounter{framenumber}{-1}
+Optical vortices can be generated in many ways \footnote[2]{\scriptsize M. Padgget, and L. Allen. Optical and Quantum Electronics, \textbf{31}(1) 1-12 (1999). \\
+Chen Jun, Kuang Deng-Feng, Gui Min, and Fang Zhi-Liang. Chinese Physics Letters \textbf{26}(1), 014202, (2009).\\
+M. Sosking, V. Gorshkon, M. Vasnetsov, J. Malos, and N. Heckenberg. Physical review A, \textbf{56}, 4064 (1997).}.
+
+\vspace{20pt}
+
+\includegraphics[scale=0.3]{./AAUgraphics/ov_gen_3}
+\end{frame}
+
+\begin{frame}{Optical Vortices}{Experimental Generation of Optical Vortices}
+The spiral phase can be produced by placing a spatial light modulator at the Fourier plane.
+\includegraphics[scale=0.31]{./AAUgraphics/ov_4f_gen}
+\end{frame}
+
+\begin{frame}{Optical Vortices}{Spatial Light Modulators}
+Spatial light modulator are optoelectronic devices which main function is to modulate amplitude or phase \footnote[3]{\scriptsize \url{http://laser.physics.sunysb.edu/~melia/slm/TN_LC.jpg} \\ \url{http://holoeye.com/wp-content/uploads/LC2012_spatial_light_modulator.jpg}}.
+
+\hspace*{10pt}
+
+\includegraphics[scale=0.31]{./AAUgraphics/slm}
+\end{frame}
+
+\begin{frame}{Optical Vortices}{Experimental Modulation OVs}
+No linear or complete($2\pi$) phase modulation produces deformations in the OVs.
+\includegraphics[scale=0.5]{./AAUgraphics/ovsimreal_1}
+\end{frame}
+
+\begin{frame}{Optical Vortices}{Experimental Modulation OVs}
+\addtocounter{framenumber}{-1}
+No linear or complete($2\pi$) phase modulation produces deformations in the OVs.
+\includegraphics[scale=0.5]{./AAUgraphics/ovsimreal_2}
+\end{frame}
+
+\begin{frame}{Optical Vortices}{Experimental Modulation OVs}
+\addtocounter{framenumber}{-1}
+No linear or complete($2\pi$) phase modulation produces deformations in the OVs.
+\includegraphics[scale=0.5]{./AAUgraphics/ovsimreal_3}
+\end{frame}
+
+\subsection{Our Goal}
+\begin{frame}{Our Goal}
+
+Our aim is to improve on-axis optical vortices (OVs) generation by using coherent phase-diversity, so that deformations introduced by phase modulation of transmissive spatial light modulator are compensated.
+\pause
+\begin{block}{Steps}
+\begin{itemize}
+ \item<1-> Understand the concept behind phase-diversity and coherent phase-diversity.
+ \pause
+ \item<2-> Use known phase modulation in a diffraction-limited optical system, producing OVs deformed only by phase modulation.
+ \pause
+ \item<3-> Apply coherent phase-diversity concept to get deformations as optical aberrations.
+ \pause
+ \item<4-> Use the retrieved aberrations to correct experimental OVs.
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+%  The present beamer theme called the \alert{AAU Sidebar Beamer Theme} is an attempt to
+%  \begin{itemize}
+%    \item<1-> create a simple and elegant beamer theme which can be used by students and researchers affiliated with Aalborg University (AAU),
+%    \item<2-> create a unique AAU theme which does not resemble any of the standard beamer themes. People should associate this theme with AAU and not with beamer,
+%    \item<3-> keep the amount of clutter to a minimum. Only the important things should be on the slides,
+%    \item<4-> retain the powerful customisation tools provided by the template system of the beamer class.
+%  \end{itemize}
+
+% % % % % % % % % % % % %
+
+\section{Phase-Retrieval Techniques}
+\begin{frame}{Introduction}{Phase-Retrieval Techniques}
+
+Phase  retrieval techniques \footnote[4]{\scriptsize R. Restrepo, N. Uribe-Patarroyo, and T. Belenguer. Optics Letters \textbf{36}, 4644-4646 (2011).}.
+
+\begin{center}
+\vspace{20pt}
+\hspace*{-10pt}
+\includegraphics[scale=0.75]{./AAUgraphics/retrieval_methods_1}
+\end{center}
+\end{frame}
+
+\begin{frame}{Introduction}{Phase-Retrieval Techniques}
+Phase  retrieval techniques \footnote[4]{\scriptsize R. Restrepo, N. Uribe-Patarroyo, and T. Belenguer. Optics Letters \textbf{36}, 4644-4646 (2011).}.
+
+\addtocounter{framenumber}{-1}
+\vspace{20pt}
+\hspace*{-10pt}
+\includegraphics[scale=0.75]{./AAUgraphics/retrieval_methods_2}
+\end{frame}
+
+\begin{frame}{Introduction}{Phase-Retrieval Techniques}
+Phase  retrieval techniques \footnote[4]{\scriptsize R. Restrepo, N. Uribe-Patarroyo, and T. Belenguer. Optics Letters \textbf{36}, 4644-4646 (2011).}.
+
+\addtocounter{framenumber}{-1}
+\vspace{20pt}
+\hspace*{-10pt}
+\includegraphics[scale=0.75]{./AAUgraphics/retrieval_methods_3}
+\end{frame}
+
+%%%%%%%%%%%%%%%%
+
+\subsection{Phase-Diversity}
+\begin{frame}{Phase-Diversity}{Phase-Diversity Concept}
+\begin{center}
+\hspace*{-10pt}
+\includegraphics[scale=0.25]{./AAUgraphics/pd_workout_1}
+\end{center}
+\end{frame}
+
+\begin{frame}{Phase-Diversity}{Phase-Diversity Concept}
+\addtocounter{framenumber}{-1}
+\hspace*{-10pt}
+\includegraphics[scale=0.25]{./AAUgraphics/pd_workout_2}
+\end{frame}
+
+\begin{frame}{Phase-Diversity}{Phase-Diversity Concept}
+\addtocounter{framenumber}{-1}
+\hspace*{-10pt}
+\includegraphics[scale=0.25]{./AAUgraphics/pd_workout_2}
+\begin{block}{Minimization functional \footnote[5]{R. Paxman, T. Schulz, and J. Fienup. Journal of the Optical Society of America A \textbf{9}(7), 1072-1085 (1992)}}
+$L(\bar{D}_{obj},\phi) = \sum\limits_{j=0}^{K}\sum\limits_{u,v}^{M,N}|D_j-\bar{D}_{obj}S_j|^2$
+\end{block}
+\end{frame}
+
+% % % % % % % %
+
+\subsection{Coherent Phase-Diversity}
+\begin{frame}{Phase-Diversity}{Coherent Illumination Phase-diversity}
+
+\begin{block}{New diversities family \footnote[6]{S. Echeverri-Chacón, R. Restrepo, C. Cuartas-Vélez, and N. Uribe-Patarroyo. Optics Letters \textbf{41}(8), 1817-1820 (2016)}}
+$\psi_l = arg(\exp \{il\theta\})$,\\
+$\eta_j^l(\vec{x}) = F^{-1}\{U_{ojb} A e^{i(\phi + \psi_l + \phi_j)}\}$
+\end{block}
+
+\pause
+\vspace*{-15pt}
+\hspace*{15pt}
+
+\includegraphics[scale=0.28]{./AAUgraphics/coherent_pd_setup}
+\pause
+\begin{block}{Extended functional}
+$L(\phi) = \sum\limits_{l=0}^{L} \sum\limits_{j=0}^{K} \sum\limits_{l=x,y}^{M,N} |d_j(\vec{x}) - |\eta_j^l(\vec{x})|^2|^2$
+\end{block}
+\end{frame}
+
+% % % % % % % % % % % % % %
+
+%\subsection{Modification of Coherent Phase-Diversity}
+\begin{frame}{Modified Coherent Phase-Diversity}{Block Diagram of Coherent Phase-Diversity Modified}
+\hspace*{40pt}
+\includegraphics[scale=0.4]{./AAUgraphics/pdfluxadd_0}
+\end{frame}
+
+\begin{frame}{Modified Coherent Phase-Diversity}{Block Diagram of Coherent Phase-Diversity Modified}
+\addtocounter{framenumber}{-1}
+\hspace*{40pt}
+\includegraphics[scale=0.4]{./AAUgraphics/pdfluxadd_1}
+\end{frame}
+
+\begin{frame}{Modified Coherent Phase-Diversity}{Block Diagram of Coherent Phase-Diversity Modified}
+\addtocounter{framenumber}{-1}
+\hspace*{40pt}
+\includegraphics[scale=0.4]{./AAUgraphics/pdfluxadd_2}
+\end{frame}
+
+\begin{frame}{Modified Coherent Phase-Diversity}{Block Diagram of Coherent Phase-Diversity Modified}
+\addtocounter{framenumber}{-1}
+\hspace*{40pt}
+\includegraphics[scale=0.4]{./AAUgraphics/pdfluxadd_3}
+\end{frame}
+
+% % % % % % % % % % %
+%
+%\subsection{Spiral Interferometry Microscopy}
+%\begin{frame}{Introduction}{Spiral Interferometry Microscopy}
+%\centering{
+%\includegraphics[height=7cm,keepaspectratio]{AAUgraphics/Spiral_interferometry.pdf}}
+%\end{frame}
+
+%%%%%%%%%%%%%%%%
+
+
+%\subsection{STED Microscopy}
+%% the license
+%
+%\begin{frame}{Introduction}{STED Microscopy}
+%\centering{
+%\includegraphics[height=7cm,keepaspectratio]{AAUgraphics/STED_no_aberration.pdf}}
+%\end{frame}
+%
+%%\subsection{STED Microscopy}
+%% the license
+%\begin{frame}{Introduction}{STED Microscopy with aberrations}
+%\centering{
+%\includegraphics[height=6.0cm,keepaspectratio]{AAUgraphics/STED_with_aberration.pdf}}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%
+%\subsection{Our Goal}
+%\begin{frame}{Introduction}{Our Goal}
+%
+%Our aim is to mathematically describe the generation of optical vortices when a distortion is introduced in the binary diffraction grating.
+%\pause
+%\begin{block}{Steps}
+%\begin{itemize}
+% \item<1-> Describe the forked grating transmission function.
+% \pause
+% \item<2-> With Fourier formalism analyse the vortex diffracted pattern.
+% \pause
+% \item<3-> Use three cases of distortion in the grating.
+% 	\begin{itemize}
+% 	\item Constant aberration.
+% 	\item Defocus aberration.
+%	\item Coma aberration.
+% 	\end{itemize}
+% \pause
+% \item<4-> Numerically simulate the resulting pattern, and compare them with experimental ones.
+%\end{itemize}
+%\end{block}
+%
+%\end{frame}
+%
+%%%%%
+%\section{Mathematical Model}
+%% general installation instructions
+%\subsection{Forked-Grating Transmission Function}
+%\begin{frame}{Mathematical model}{Forked-Grating Transmission Function}
+%
+%
+%The amplitude transmission function is described by the interference between a plane wave and the phase singularity. The function has the form
+%
+%
+%%\includegraphics[scale=1.1]{AAUgraphics/Eq_Grating.pdf}
+%
+%%T(\rho,\phi) = \underbrace{\sum \limits_{n=-\infty}^{\infty} t_n}_{Transmission coeffcients} \exp \{-in[(2\pi/T) \rho\cos (\phi ) + l\phi + W(\rho,\phi)] \}
+%
+%%T(\rho,\phi) = \underset{\textcolor[rgb]{1,0,0}{\begin{array}{c}
+%%Transmission\\ coefficients
+%%\end{array}
+%%}}{\tcbhighmath[boxrule=0.5pt,colframe=red,shrink tight,extrude by=0.5mm]{\textcolor[rgb]{0.35,0.35,0.35}{\sum \limits_{n=-\infty}^{\infty} t_n}}}  \exp \{-in[\underset{\textcolor[rgb]{0,1,0}{Plane \hspace*{2pt} wave}}{\tcbhighmath[boxrule=0.5pt,colframe=green,shrink tight,extrude by=0.5mm]{\textcolor[rgb]{0.35,0.35,0.35}{(2\pi/T) \rho\cos (\phi )}}} + l\phi + W(\rho,\phi)] \}
+%
+%\begin{equation}
+%\includegraphics[height=1.7cm,keepaspectratio]{AAUgraphics/Eq_Grating.pdf}
+%\end{equation}
+%
+%\pause
+%The transmission coefficients for an amplitude binary grating are 
+%
+%%\textcolor[rgb]{0,0,0}{
+%\begin{equation}
+%\includegraphics[height=0.7cm,keepaspectratio]{AAUgraphics/Eq_tn.pdf}
+%\end{equation}
+%%}
+%
+%\pause
+%The diffraction efficiency is
+%
+%$$t_0 = 0.25, \quad t_{\pm 1}\approx 0.10, \quad t_{\pm 2} = 0, \quad t_{\pm 3} \approx 0.01$$
+%
+%\end{frame}
+%
+%\begin{frame}{Mathematical model}{Forked-Grating Transmission Function}
+%\begin{figure}
+%\includegraphics[scale=0.3]{AAUgraphics/Gratings.pdf}
+%\caption{Binary gratings. (a) Simple, (b) forked with $l=2$, and (c) distorted with $l=2$ and $2\lambda$ x-coma}
+%\end{figure}
+%\end{frame}
+%
+%
+
+%  The theme consists of four files
+%  \begin{enumerate}
+%    \item {\tt beamerthemeAAUsidebar.sty}
+%    \item {\tt beamerinnerthemeAAUsidebar.sty}
+%    \item {\tt beamerouterthemeAAUsidebar.sty}
+%    \item {\tt beamercolorthemeAAUsidebar.sty}
+%  \end{enumerate}
+%  The theme can either be installed for local or global use.
+%  \pause
+%  \begin{block}{Local Installation}
+%    The simplest way of installing the theme is by placing the four theme files in the same folder as your presentation. When you download the theme, the four theme files are located in the {\tt local} folder.
+%  \end{block}
+
+
+%\subsection{Fourier-Field Diffracted Pattern}
+%\begin{frame}{Mathematical model}{Fourier-Field Diffracted Pattern}
+%\begin{figure}
+%\includegraphics[scale=0.48]{AAUgraphics/4F-2.pdf}
+%\caption{$4f$ Fourier correlator using forked diffraction grating at Fourier plane, creating OVs in diffracted orders.}
+%\end{figure}
+%
+%Convolution theorem
+%\begin{equation}
+%\includegraphics[height=0.3cm,keepaspectratio]{AAUgraphics/Eq_convolution.pdf}
+%\end{equation}
+%\end{frame}
+%
+%\begin{frame}{Mathematical model}{Fourier-Field Diffracted Pattern}
+%\begin{block}{Input plane}
+
+%\begin{align}
+%\includegraphics[height=0.6cm,keepaspectratio]{AAUgraphics/Eq_gaussian.pdf}
+%\end{align}
+
+%Assumed as a Gaussian function, its Fourier transform is
+%
+%\begin{align}
+%%\includegraphics[height=1.7cm,keepaspectratio]{AAUgraphics/Eq_gaussian_FT_long.pdf} %version larga
+%% Version corta
+%\includegraphics[height=0.35cm,keepaspectratio]{AAUgraphics/Eq_gaussian_FT_short.pdf}
+%\end{align}
+%
+%\end{block}
+%\pause
+%\begin{block}{Output plane}
+%A second Fourier transform is performed
+%\begin{equation}
+%\includegraphics[height=1cm,keepaspectratio]{AAUgraphics/Eq_g_FT.pdf}
+%\end{equation}
+%\end{block}
+%
+%\pause
+%
+%This requires a known function $W(\rho,\phi)$. Three cases are studied: constant, defocus and coma aberration.
+%
+%\end{frame}
+%
+%\subsection{Case 1. Constant aberration}
+%\begin{frame}{Mathematical model}{Case 1. Constant aberration}
+%The distortion in the grating is constant %without loss of generality
+%\begin{equation}
+%\includegraphics[height=0.3cm,keepaspectratio]{AAUgraphics/Eq_W_constant.pdf}
+%\end{equation}
+%\pause
+%Integration process over $g(r,\theta)$ requires the following variable change, related with the diffracted orders caused by the grating
+%\begin{equation}
+%\includegraphics[height=1.0cm,keepaspectratio]{AAUgraphics/Eq_var_change.pdf}
+%\end{equation}
+%\pause
+%The result is given by
+%\begin{equation}
+%\includegraphics[height=2.5cm,keepaspectratio]{AAUgraphics/Eq_g_constant.pdf}
+%\end{equation}
+%\end{frame}
+%
+%\subsection{Case 2. Defocus aberration}
+%\begin{frame}{Mathematical model}{Case 2. Defocus aberration}
+%Defocus can be described as
+%\begin{equation}
+%\includegraphics[height=0.3cm,keepaspectratio]{AAUgraphics/Eq_W_defocus.pdf}
+%\end{equation}
+%\pause
+%Similar integration process and variable changes yield the following expression
+%\begin{equation}
+%\includegraphics[height=2.5cm,keepaspectratio]{AAUgraphics/Eq_g_defocus.pdf}
+%\end{equation}
+%\pause
+%The term {\textcolor[rgb]{1,0.1,0.1}{$inA/\pi$}} shows the magnification in the vortex radius.
+%\end{frame}
+%
+%
+%\subsection{Case 3. Coma aberration}
+%\begin{frame}{Mathematical model}{Case 3. Coma aberration}
+%Coma is defined by
+%\begin{equation}
+%\includegraphics[height=0.3cm,keepaspectratio]{AAUgraphics/Eq_W_coma.pdf}
+%\end{equation}
+%\pause
+%Using Bessel function properties, same variable substitutions and depreciating high order radial terms $(\rho^m \geq 3)$ the resulting output plane is
+%\begin{equation}
+%\includegraphics[height=2.5cm,keepaspectratio]{AAUgraphics/Eq_g_coma.pdf}
+%\end{equation}
+%\pause
+%The Kummer function has dependence in the angular component, this means a variation in the vortex shape.
+%\end{frame}
+
+
+
+\section{Results}
+\begin{frame}{Results}{Coherent Phase-Diversity Modified Simulation}
+A set of four images was used, with $l = \pm 1$ and $Z_{4} = j = \pm 0.5\lambda$, with a initial step size $1\lambda$ and function tolerance $10^{-6}$ as stop criteria.
+
+\vspace*{10pt}
+%\hspace*{-10pt}
+\includegraphics[scale=0.55]{./AAUgraphics/exp_cor_results_2_0}
+\end{frame}
+
+\begin{frame}{Results}{Coherent Phase-Diversity Modified Simulation}
+A set of four images was used, with $l = \pm 1$ and $Z_{4} = j = \pm 0.5\lambda$, with a initial step size $1\lambda$ and function tolerance $10^{-6}$ as stop criteria.
+
+\vspace*{10pt}
+\addtocounter{framenumber}{-1}
+\includegraphics[scale=0.55]{./AAUgraphics/exp_cor_results_2}
+\end{frame}
+
+
+\begin{frame}{Results}{Experimental Coherent Phase-Diversity Modified Correction}
+The retrieved phase was inverted and then projected onto the spatial light modulator and OVs were generated again, producing more azimuthal symmetry. Note that aberrations inherent to optical system are still present.
+
+\vspace*{10pt}
+\hspace*{30pt}
+\includegraphics[scale=0.7]{./AAUgraphics/exp_cor_results}
+\end{frame}
+
+\begin{frame}{Results}{Optical system aberration}
+The process was performed again, but using experimental modulation and experimental images, the result is the phase aberration produced merely by the optical system.
+
+\vspace*{10pt}
+%\hspace*{30pt}
+\includegraphics[scale=0.55]{./AAUgraphics/exp_cor_results_3_0}
+\end{frame}
+
+\begin{frame}{Results}{Optical system aberration}
+The process was performed again, but using experimental modulation and experimental images, the result is the phase aberration produced merely by the optical system.
+
+\vspace*{10pt}
+\addtocounter{framenumber}{-1}
+\includegraphics[scale=0.55]{./AAUgraphics/exp_cor_results_3_1}
+\end{frame}
+
+\begin{frame}{Results}{Optical system aberration}
+The process was performed again, but using experimental modulation and experimental images, the result is the phase aberration produced merely by the optical system.
+
+\vspace*{10pt}
+\addtocounter{framenumber}{-1}
+\includegraphics[scale=0.55]{./AAUgraphics/exp_cor_results_3_2}
+\end{frame}
+
+\section{Conclusion}
+\begin{frame}{Conclusion}
+\begin{itemize}
+%\item<1-> El café es importante como un putas!
+%\item<2-> Coffe is important as faq!
+
+\item<1-> A modification of coherent phase-diversity was proposed and applied in order to improve the angular symmetry of optical vortices generated on-axis with transmissive spatial light modulator.
+
+\item<2-> Deformations introduced by no linear and incomplete phase modulations were corrected, experimental results show improvement from data obtained based only on gray-level modulation.
+
+\item<3-> Using the characteristics of coherent phase-diversity an additional feature was introduced based on experimental data.
+
+\item<4-> As the proposed procedure requires only phase modulation values, optical vortices can be corrected even before the optical system is implemented.
+
+\item<5-> The proposed procedure complements the coherent phase-diversity technique, allowing to discern between aberrations introduced merely by optical system, and those produced by the phase modulation.
+
+
+%\item<5-> Even without phase modulation OVs can be achieved and by phase correction methods, distortions into the grating can produce high-quality OVs, which are necessary in STED microscopy as well in optical tweezers.
+
+%\item<6-> The downside of using forked-diffraction gratings is the energy loses in the undesired diffracted orders and the grating absorption.
+
+\end{itemize}
+\end{frame}
+
+%\subsection{Contact Information}
+%% contact information
+%\begin{frame}{Feedback}{Contact Information}
+%In case you have comments, suggestions or have found a bug, please do not hesitate to contact me. You can find my contact details below.
+%  \begin{center}
+%    \insertauthor\\
+%    \chref{http://kom.aau.dk/~jkn}{http://kom.aau.dk/\textasciitilde jkn}\\
+%    Niels Jernes Vej 12, A6-309\\
+%    9220 Aalborg Ø
+%  \end{center}
+%\end{frame}
+%%%%%%%%%%%%%%%
+
+%{\aauwavesbg
+\begin{frame}[plain,noframenumbering]
+  \finalpage{Thanks for your attention!}
+\end{frame}
+ 
+
+
+
+%% general installation instructions
+%
+%\begin{frame}{Installation}
+%  \begin{block}{Global Installation}
+%  \begin{itemize}
+%     \item If you wish to make the theme globally available, you must put the files in your local latex directory tree. The location of the root of the local directory tree depends on the operating system and the latex distribution. On the following slides, you can read the instructions for some common setups.
+%    \item When you download the theme, the four theme files are embedded in a directory structure (in the {\tt global} folder) ready to be copied directly to the root of your local directory tree.
+%    \item On the following slides, we refer to this directory structure as {\tt <dirstruct>}. \alert{Note} that some parts of the directory may already exist if you have installed other packages in your local latex directory tree. If this is the case, you simply merge {\tt <dirstruct>} with your existing setup.
+%  \end{itemize}
+%  \end{block}
+%\end{frame}
+%
+%\subsection{GNU/Linux}
+%% installation on GNU/Linux
+%\begin{frame}{Installation}{GNU/Linux}
+%  \begin{block}{Ubuntu with TeX Live}
+%    \begin{enumerate}
+%      \item Place the {\tt <dirstruct>} in the root of your local latex directory tree. By default it is\\
+%        {\tt \textasciitilde /texmf}\\
+%        If the root does not exist, create it. The symbol {\tt \textasciitilde} refers to your home folder, i.e., {\tt /home/<username>}
+%      \item In a terminal run\\
+%        {\tt \$ texhash \textasciitilde /texmf}
+%    \end{enumerate}
+%  \end{block}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%\subsection{Microsoft Windows}
+%% installation on Microsoft Windows
+%\begin{frame}{Installation}{Microsoft Windows}
+%  \begin{block}{Windows with MiKTeX}
+%    Apparently, MiKTeX does not include a local latex directory tree by default. Therefore, you first have to create it.
+%    \begin{enumerate}
+%      \item To do this, create a folder {\tt <somewhere>} named, e.g., {\tt texmf}
+%      \item Add this folder in the Roots tab of the MiKTeX Settings dialog
+%      \item Place the {\tt <dirstruct>} in your newly created local latex directory tree\\
+%    {\tt <somewhere>\textbackslash texmf}\\
+%      \item Open the MiKTeX Settings dialog and click Refresh FNDB.
+%    \end{enumerate}
+%  \end{block}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%% installation on Microsoft Windows Cont'd
+%\begin{frame}{Installation}{Microsoft Windows}
+%  \begin{block}{Windows with TeX Live}
+%    In the advanced TeX Live Installer, you can manually change the default position of the root of the local latex directory tree. However, we assume the default position below.
+%    \begin{enumerate}
+%      \item Place the {\tt <dirstruct>} in your local latex directory tree\\
+%        {\tt \%USERPROFILE\%\textbackslash texmf}\\
+%        If it does not exist, create it. In XP {\tt \%USERPROFILE\%} is\\
+%      {\tt c:\textbackslash Document and Settings\textbackslash<username>}\\
+%      by default, and in Vista and above it is by default\\
+%      {\tt c:\textbackslash Users\textbackslash<username>}
+%      \item Open the TeX Live Manager dialog and select 'Update filename database' under 'Actions'.
+%    \end{enumerate}
+%  \end{block}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%\subsection{Mac OS X}
+%% installation on Mac OS X
+%\begin{frame}{Installation}{Mac OS X}
+%  \begin{block}{Mac OS X with MacTeX}
+%     Place the {\tt <dirstruct>} in the root of your local latex directory tree. By default it is\\
+%        {\tt \textasciitilde /Library/texmf}\\
+%        If the root does not exist, create it. The symbol {\tt \textasciitilde} refers to your home folder, i.e., {\tt /home/<username>}
+%  \end{block}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%\subsection{Required Packages}
+%% list of required packages
+%\begin{frame}{Installation}{Required Packages}
+%  Of course, you have to have the Beamer class installed. In addition, the theme loads two packages
+%  \begin{itemize}
+%    \item TikZ\footnote{By the way, TikZ is an awesome package for creating beautiful graphics. If you do not believe me, then have a look at these \chref{http://www.texample.net/tikz/examples/}{online examples} or the \chref{http://tug.ctan.org/tex-archive/graphics/pgf/base/doc/generic/pgf/pgfmanual.pdf}{pgf user manual}. If you want to create beautiful plots, you should use the pgfplots package which is based on TikZ.}
+%    \item calc
+%  \end{itemize}
+%  These packages are very common and should therefore be included in your latex distribution.
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%\section{User Interface}
+%\subsection{Loading the Theme and Theme Options}
+%% list of the themes and options
+%\begin{frame}{User Interface}{Loading the Theme and Theme Options}
+%  \begin{block}{The Presentation Theme}
+%    It is very simple to load the presentation theme. Just type\\
+%    {\tt \textbackslash usetheme[<options>]\{AAUsidebar\}}\\
+%    which is exactly the same way other beamer presentation themes are loaded. The presentation theme loads the inner, outer and color AAU sidebar theme files and passes the {\tt <options>} on to these files.
+%  \end{block}
+%  \begin{block}{The Inner Theme}
+%    You can load the inner theme directly by\\
+%    {\tt \textbackslash useinnertheme\{AAUsidebar\}}\\
+%    and it has no options.
+%  \end{block}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%% list of the themes and options
+%\begin{frame}{User Interface}{Loading the Theme and Theme Options}
+%  \begin{block}{The Outer Theme}
+%    You can load the outer theme directly by\\
+%    {\tt \textbackslash useoutertheme[<options>]\{AAUsidebar\}}\\
+%    Currently, the theme options are
+%  \begin{itemize}
+%    \item {\tt hidetitle}: Hide the (short) title in the sidebar
+%    \item {\tt hideauthor}: hide the (short) author in the sidebar
+%    \item {\tt hideinstitute}: hide the (short) institute in the bottom of the sidebar
+%    \item {\tt shownavsym}: show the navigation symbols
+%    \item {\tt left} or {\tt right}: position of the sidebar (default is right)
+%    \item {\tt width=<length>}: width of the sidebar (default is 2 cm).
+%    %The width is measured from the right side of the vertical bar to the right edge of the slide.
+%    \item {\tt hideothersubsections}: hide all subsections but the subsections in the current section
+%    \item {\tt hideallsubsections}: hide all subsections
+%  \end{itemize}
+%  The last four options are inherited from the outer sidebar theme.
+%  \end{block}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%% list of the themes and options
+%{\setbeamercolor{frametitle}{use=structure,fg=structure.fg,bg=white}
+%\begin{frame}{User Interface}{Loading the Theme and Theme Options}
+%  \begin{block}{The Color Theme}
+%    You can load the color theme directly by\\
+%    {\tt \textbackslash usecolortheme[<options>]\{AAUsidebar\}}\\
+%    Currently, the only theme option is
+%    \begin{itemize}
+%      \item {\tt lightheaderbg}: use a light header background (currently, it is white). 
+%    \end{itemize}
+%    This option creates the light header used on this slide.
+%  \end{block}
+%  \pause
+%  \begin{block}{The Color Element {\tt AAUsidebar}}
+%    The color theme defines a new beamer color element named {\tt AAUsidebar} whose foreground and background colors are
+%    \begin{itemize}
+%      \item fg: {\usebeamercolor[fg]{AAUsidebar}light blue (\{RGB\}\{194,193,204\})}
+%      \item bg: {\usebeamercolor[bg]{AAUsidebar}dark blue (\{RGB\}\{33,26,82\})}
+%    \end{itemize}
+%    You can use these colors in the standard beamer way by using the command
+%    {\tt \textbackslash usebeamercolor[<fg or bg>]\{AAUsidebar\}}. See the beamer manual for instructions.
+%  \end{block}
+%\end{frame}
+%}
+%%%%%%%%%%%%%%%%%
+%
+%\subsection{Compilation}
+%% compilation
+%\begin{frame}{User Interface}{Compilation}
+%\begin{block}{Compiling Your Presentation With the AAU Sidebar Theme}
+%  Unlike most other beamer themes, this theme must be compiled at least \alert{three} times to make everything look right. For most other themes, you do not have to compile your presentation more than two times. For the AAU sidebar theme, the third compilation is necessary to determine the position of the circle with the current frame number.
+%\end{block}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%\subsection{Modifying the Theme}
+%% how to modify the theme
+%{\setbeamercolor{AAUsidebar}{fg=gray!50,bg=red!50}
+% \setbeamercolor{sidebar}{bg=yellow!20}
+% %\setbeamercolor{structure}{fg=white}
+% %\setbeamercolor{frametitle}{use=structure,fg=structure.fg,bg=blue!1000}
+% \setbeamercolor{normal text}{bg=gray!10}
+%\begin{frame}{User Interface}{Modifying the Theme}
+%  \begin{itemize}
+%    \item<1-> The default configuration of fonts, colors, and layout complies with the \chref{http://aau.designguides.dk}{AAU design guidelines} and is the \alert{official} version of the theme.
+%    \item<2-> However, you can easily modify specific elements of the theme through the template system provided by the beamer class. Please refer to the beamer user manual for instructions.
+%    \item<3-> For example, on this slide we have used
+%      \begin{itemize}
+%        \item Change the sidebar colors:\\
+%        {\tt \textbackslash setbeamercolor\{AAUsidebar\}\{fg=gray!50,bg=gray\}}
+%        {\tt \textbackslash setbeamercolor\{sidebar\}\{bg=red!20\}}
+%        \item Change the color of the structural elements:\\
+%        {\tt \textbackslash setbeamercolor\{structure\}\{fg=red\}}\\
+%        \item Change the frame title text color and background:
+%        {\tt \textbackslash setbeamercolor\{frametitle\}\{use=structure, fg=structure.fg,bg=red!5\}}
+%        \item Change the background color of the text
+%        {\tt \textbackslash setbeamercolor\{normal text\}\{bg=gray!20\}}
+%      \end{itemize}
+%  \end{itemize}
+%\end{frame}}
+%%%%%%%%%%%%%%%%%
+%
+%\subsection{AAU Waves}
+%% the AAU Waves background
+%\begin{frame}{User Interface}{The AAU Waves Background Image}
+%\begin{block}{The AAU Waves Background Image}
+%\begin{itemize}
+%  \item<1-> In this documentation, the title page frame and the last frame have the AAU waves as the background image. The AAU waves background image can be added to any single frame by wrapping a frame in the following way\\
+%  {\tt \{\textbackslash aauwavesbg\\
+%    \textbackslash begin\{frame\}[<options>]\{Frame Title\}\{Frame Subtitle\}\\
+%    \ldots\\
+%    \textbackslash end\{frame\}\}}
+%  \item<2-> Ideally, I would like to create a new frame option called {\tt aauwavesbg} which can enable the AAU waves background. However, I have not been able to figure out how such an option can be added. If you know how this can be done, please contact me.
+%\end{itemize}
+%\end{block}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%\subsection{Widescreen Support}
+%% Widescreen Support
+%\begin{frame}{User Interface}{Widescreen Support}
+%\begin{block}{Widescreen Support}
+%  Newer projectors and almost any modern TV support a widescreen format such as 16:10 or 16:9. Beamer (>= v. 3.10) supports various aspect ratios of the slides. According to section 8.3 on page 77 of the Beamer user guide v. 3.10, you can write\\
+%{\tt\textbackslash documentclass[aspectratio=1610]\{beamer\}}\\
+%to get slides with an aspect ratio of 16:10. You can also use 169, 149, 54, 43 (default), and 32 to get other aspect ratios.
+%\end{block}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%\section{Feedback}
+%\subsection{Known Problems}
+%% known problems
+%\begin{frame}{Feedback}{Known Problems}
+%  \begin{description}
+%    \item[Overlapping footnote] You might have problems with a too wide footnote text width. This is problem with older versions of Beamer, and it can be resolved by updating Beamer to a newer version. You can read more about it in \chref{https://bitbucket.org/rivanvx/beamer/issue/200/width-of-footnote-in-a-sidebar-theme}{this bugreport}.
+%  \end{description}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+%
+%\subsection{Bugs, Comments and Suggestions}
+%% help me iron out the bugs or give me some comment and suggestions
+%\begin{frame}{Feedback}{Bugs, Comments and Suggestions}
+%  \begin{itemize}
+%    \item<1-> There are probably still a lot of bugs in the theme. If you should find one, then please let me know. No bug is too small!
+%    \item<2-> Also, please contact me, if you have some exciting new ideas or just some simple usability improvements.
+%  \end{itemize}
+%\end{frame}
+%%%%%%%%%%%%%%%%%
+
+%\subsection{Contact Information}
+%% contact information
+%\begin{frame}{Feedback}{Contact Information}
+%In case you have comments, suggestions or have found a bug, please do not hesitate to contact me. You can find my contact details below.
+%  \begin{center}
+%    \insertauthor\\
+%    \chref{http://kom.aau.dk/~jkn}{http://kom.aau.dk/\textasciitilde jkn}\\
+%    Niels Jernes Vej 12, A6-309\\
+%    9220 Aalborg Ø
+%  \end{center}
+%\end{frame}
+%%%%%%%%%%%%%%%%
+
+%{\aauwavesbg
+%\begin{frame}[plain,noframenumbering]
+%  \finalpage{Thank you for using this theme!}
+%\end{frame}}
+%%%%%%%%%%%%%%%%%
+
+\end{document}

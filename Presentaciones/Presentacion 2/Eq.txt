@@ -1,0 +1,5 @@
+		\begin{align*}
+			I_D(k) = & \overwrite[white!40!violet]{\frac{\rho}{4}\left[ S(k) (R_R + R_{S1} + R_{S2} + ...+R_{Sn}) \right]}{Componente DC}                                                     \\
+			         & \overwrite[teal]{+ \frac{\rho}{2} \left[ S(k) \sum_{n=1}^{N} \sqrt{R_R {\color{blueEQ}R_{S_n}}} \left( \cos[2k(z_R - z_{S_n})] \right) \right]}{Términos de correlación cruzada}         \\
+			         & \overwrite[white!40!red]{+ \frac{\rho}{4} \left[ S(k) \sum_{m\neq n=1}^{N} \sqrt{R_{S_n}R_{S_m}} \left( \cos[2k(z_{S_n} - z_{S_m})] \right) \right]}{Términos de autocorrelación} 
+		\end{align*}
