@@ -1,40 +1,41 @@
 % Document class in letter with 12pt and book style
-%\documentclass[letter, 12pt,oneside]{book}
-\documentclass[letter, 12pt]{article}
+\documentclass[letter, 12pt]{book}
+%\documentclass[letter, 12pt]{article}
 
 % Load document setup
 \input{Setup}
 
 % Create document
 \begin{document}
-\renewcommand{\listfigurename}{Lista de figuras}
-\renewcommand{\listtablename}{Lista de tablas}
-\renewcommand{\contentsname}{CONTENIDO}
-\renewcommand{\tablename}{Tabla}
-%\renewcommand{\bibname}{}
-\renewcommand{\refname}{REFERENCIAS}
+% \renewcommand{\listfigurename}{Lista de figuras}
+% \renewcommand{\listtablename}{Lista de tablas}
+% \renewcommand{\contentsname}{CONTENIDO}
+% \renewcommand{\tablename}{Tabla}
+\renewcommand{\bibname}{REFERENCES}
 
 % Numerar páginas en romano
-\pagenumbering{roman}
+\pagenumbering{Roman}
 
 % Load Cover
 \include{Cubierta/Cover}
-\include{Cubierta/Contenido}
+\include{Cubierta/Contents}
 
-% Ahora numerar páginascon números arábigos
-\pagenumbering{arabic} % Ahora numerar páginascon números arábigos
-\setcounter{page}{3} % Empezar el cotador de páginas en 3
-\setcounter{secnumdepth}{4} % Empezar el cotador de páginas en 3
+% Number pages with roman numbers
+\renewcommand{\thepage}{\roman{page}}
+%\pagenumbering{arabic}
+% Number pages with arabic numbers
+\renewcommand{\thepage}{\arabic{page}}
+%\setcounter{page}{\thepage
+% \setcounter{secnumdepth}{5}
 
-\include{Caps/Introduccion}
-\include{Caps/Planteamiento}
-\include{Caps/Objetivos}
-\include{Caps/Marco_teorico}
-\include{Caps/Metodologia}
-\include{Caps/Cronograma}
+\include{Caps/Introduction}
+%\include{Caps/ProblemStatement}
+%\include{Caps/Objectives}
+\include{Caps/TheoreticalBasis}
+\include{Caps/Methods}
 
 % Referencias
-\addcontentsline{toc}{section}{REFERENCIAS}
+\addcontentsline{toc}{chapter}{REFERENCES}
 %\section*{Referencias}
 \bibliographystyle{unsrt}
 \bibliography{Bib_Source}

@@ -2,15 +2,15 @@
 % Acronyms
 \usepackage{acronym}
 % Spanish
-\usepackage[spanish]{babel}
+% \usepackage[spanish]{babel}
 
 % Paper size and margins
 \usepackage{geometry}
 \geometry{
 	a4paper,
-	left = 4 cm,
+	left = 3 cm,
 	top = 3 cm,
-	right = 2cm,
+	right = 3cm,
 	bottom = 3 cm,
 }
 
@@ -28,25 +28,25 @@
 %\usepackage{fourier, erewhon}
 \usepackage{microtype}
 \usepackage{titlesec}
-%\titleformat{\chapter}[display]
-%{\bf}
-%{\MakeUppercase{\chaptername}\enspace\thechapter}
-%{2ex}
-%{\titlerule[1pt]\vspace{2ex}\MakeUppercase}%
-%\titlespacing*{\chapter}{0pt}{0pt}{2ex}
+\titleformat{\chapter}[display]
+{\bf\LARGE}
+{\flushright\MakeUppercase{\chaptername}\enspace\thechapter}
+{0.5ex}
+{\Huge\titlerule[1pt]\vspace{2ex}\MakeUppercase}%
+\titlespacing*{\chapter}{0pt}{0pt}{6ex}
 
-%\titleformat{\chapter}[display]
-%{\bfseries\centering}
-%{\thechapter.}
-%{0ex}
-%{\hspace{0.5em}\MakeUppercase}%
-%\titlespacing*{\chapter}{0pt}{0pt}{2ex}
+% \titleformat{\chapter}[display]
+% {\bfseries\centering}
+% {\thechapter.}
+% {0ex}
+% {\hspace{0.5em}\MakeUppercase}%
+% \titlespacing*{\chapter}{0pt}{0pt}{2ex}
 
-\titleformat{\chapter}{\bfseries\Large}{\ifnum\value{chapter}>0\relax\arabic{chapter}.~}{0pt}{}
+%\titleformat{\chapter}{\bfseries\Large}{\ifnum\value{chapter}>0\relax\arabic{chapter}.~}{0pt}{}
 
 % Section titles setup
 \titleformat{\section}[display]
-{\centering\bfseries}
+{\bfseries\large}
 {}
 {0em}
 {\thesection.\hspace{0.5em}}
@@ -62,8 +62,35 @@
 \usepackage[open, openlevel=2, atend]{bookmark}
 
 % Babelbib
-\usepackage{babelbib}
+% \usepackage{babelbib}
 
 % Commands
 \newcommand{\invi}{\textit{in vivo}~}
 \newcommand{\exvi}{\textit{ex vivo}~}
+
+% Fancy headers
+\usepackage{fancyhdr}
+
+% Set fancy page style
+\pagestyle{fancy}
+
+% Define odd page number in the right and even on the left
+\fancyhf{}
+\fancyheadoffset[LE, RO]{1cm}
+\fancyhead[RO]{\sffamily\sc\makebox[0.7cm]{\thepage}} 
+\fancyhead[LE]{\sffamily\sc\makebox[0.7cm]{\thepage}}
+
+% Define chapter title header for even and section title header for odd
+\fancyhf[reh]{\leftmark}
+\fancyhf[loh]{\rightmark}
+
+% Avoid creating a blank header for empty pages
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+  \hbox{}
+  \thispagestyle{empty}
+  \newpage
+  \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\let\cleardoublepage=\clearpage

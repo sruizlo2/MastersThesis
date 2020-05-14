@@ -1,0 +1,43 @@
+\newcommand{\contenido}{
+	\newpage
+%	\phantomsection
+	\currentpdfbookmark{Content}{Content}
+	\tableofcontents
+	%\thispagestyle{empty}
+    \newpage\null\thispagestyle{empty}
+}
+
+\newcommand{\figuras}{
+	%\newpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{\bf LIST OF FIGURES}
+	\listoffigures
+	%\thispagestyle{empty}
+}
+
+
+\newcommand{\tablas}{
+	%\newpage
+	\phantomsection
+	\addcontentsline{toc}{chapter}{\bf LIST OF TABLES}
+	\listoftables
+	%\thispagestyle{empty}
+}
+
+
+\newcommand{\acronimos}{
+	%\newpage
+	\phantomsection
+	\chapter*{LIST OF ACRONYMS}
+	\addcontentsline{toc}{chapter}{\bf LIST OF ACRONYMS}
+	\begin{acronym}[AWGN]
+		\acro{APDL}{\textit{ANSYS parametric design language} (Lenguaje paramétrico de diseño de ANSYS).}
+	\end{acronym}
+	%\thispagestyle{empty}
+}
+
+\contenido
+\figuras
+\tablas
+\acronimos
+\newpage\null\thispagestyle{empty}
