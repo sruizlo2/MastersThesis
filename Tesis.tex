@@ -7,6 +7,11 @@
 
 % Create document
 \begin{document}
+
+% Vertical space before and after equations
+\setlength{\abovedisplayskip}{\baselineskip}
+\setlength{\belowdisplayskip}{\baselineskip}
+
 % \renewcommand{\listfigurename}{Lista de figuras}
 % \renewcommand{\listtablename}{Lista de tablas}
 % \renewcommand{\contentsname}{CONTENIDO}
@@ -29,10 +34,11 @@
 % \setcounter{secnumdepth}{5}
 
 \include{Caps/Introduction}
-%\include{Caps/ProblemStatement}
-%\include{Caps/Objectives}
 \include{Caps/TheoreticalBasis}
-\include{Caps/Methods}
+\include{Caps/SHARP}
+\include{Caps/CTNode}
+\include{Caps/Results}
+\include{Caps/Conclusions}
 
 % Referencias
 \addcontentsline{toc}{chapter}{REFERENCES}

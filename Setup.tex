@@ -14,6 +14,17 @@
 	bottom = 3 cm,
 }
 
+% Formating
+\setlength{\parskip}{.5em}
+\renewcommand{\baselinestretch}{1.15}
+\usepackage{setspace}
+
+% Figures package
+\usepackage{graphicx}
+
+% Maths package
+\usepackage{amsmath, mathtools}
+
 % Hyperlinks in the text
 \usepackage{hyperref}
 \hypersetup{
@@ -32,9 +43,24 @@
 {\bf\LARGE}
 {\flushright\MakeUppercase{\chaptername}\enspace\thechapter}
 {0.5ex}
-{\Huge\titlerule[1pt]\vspace{2ex}\MakeUppercase}%
+{\raggedright\Huge\titlerule[1pt]\vspace{2ex}\MakeUppercase}%
 \titlespacing*{\chapter}{0pt}{0pt}{6ex}
 
+%% Double hat in math
+\usepackage{accents}
+\newlength{\dhatheight}
+\newcommand{\doublehat}[1]{%
+    \settoheight{\dhatheight}{\ensuremath{\hat{#1}}}%
+    \addtolength{\dhatheight}{-0.35ex}%
+    \hat{\vphantom{\rule{1pt}{\dhatheight}}%
+    \smash{\hat{#1}}}}
+
+\newcommand{\tildehat}[1]{%
+    \settoheight{\dhatheight}{\ensuremath{\tilde{#1}}}%
+    \addtolength{\dhatheight}{-0.15ex}%
+    \tilde{\vphantom{\rule{1pt}{\dhatheight}}%
+    \smash{\hat{#1}}}}
+    
 % \titleformat{\chapter}[display]
 % {\bfseries\centering}
 % {\thechapter.}
@@ -48,14 +74,14 @@
 \titleformat{\section}[display]
 {\bfseries\large}
 {}
-{-1em}
-{\thesection.\hspace{0.5em}}
+{-1.5em}
+{\thesection.\hspace{0.5em}\vspace{-.5em}\setstretch{1.5}}
 
 % subsection titles setup
 \titleformat{\subsection}[display]
 {\normalsize}
 {}
-{0em}
+{-2em}
 {\thesubsection.\hspace{0.5em}}
 
 % Bookmarks in PDF
