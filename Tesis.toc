@@ -1,0 +1,43 @@
+\contentsline {chapter}{\bf LIST OF FIGURES}{IX}{section*.2}% 
+\contentsline {chapter}{\bf LIST OF TABLES}{XI}{section*.4}% 
+\contentsline {chapter}{\bf LIST OF ACRONYMS}{XIII}{chapter*.7}% 
+\contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Optical coherence tomography}{15}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Aberrations in OCT}{18}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Noise in OCT}{19}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Problem statement}{21}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Objectives}{22}{section.1.5}% 
+\contentsline {subsection}{\numberline {1.5.1}General objective}{22}{subsection.1.5.1}% 
+\contentsline {subsection}{\numberline {1.5.2}Specific objectives}{22}{subsection.1.5.2}% 
+\contentsline {section}{\numberline {1.6}Outline of the work}{23}{section.1.6}% 
+\contentsline {section}{\numberline {1.7}Structure of the document}{24}{section.1.7}% 
+\contentsline {chapter}{\numberline {2}Theoretical basis}{26}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Optical coherence tomography}{26}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Measuring the echo time delay of light}{27}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Low coherence interferometry}{27}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}Time domain OCT}{30}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.4}Fourier domain OCT}{32}{subsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.1.5}Optical frequency domain imaging}{34}{subsection.2.1.5}% 
+\contentsline {subsection}{\numberline {2.1.6}Phase stability in OCT configurations}{36}{subsection.2.1.6}% 
+\contentsline {section}{\numberline {2.2}Modelling the acquisition of the complex OCT signal}{40}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Confocal gating for lateral scan in OCT}{41}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Forward model}{42}{subsection.2.2.2}% 
+\contentsline {section}{\numberline {2.3}Refocusing and computational aberration correction techniques in OCT}{45}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Interferometric synthetic aperture microscopy}{47}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Digital refocusing}{48}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Computational adaptive optics}{50}{subsection.2.3.3}% 
+\contentsline {subsection}{\numberline {2.3.4}Phase stability requirement}{54}{subsection.2.3.4}% 
+\contentsline {subsubsection}{Phase stabilization}{59}{figure.2.13}% 
+\contentsline {chapter}{\numberline {3}Computational aberration correction in phase unstable OCT: \\ SHARP}{61}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}SHARP: A CAO technique for OCT}{61}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Phase stability assessment}{61}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Description of the method}{61}{subsection.3.1.2}% 
+\contentsline {section}{\numberline {3.2}Proof of concept experimental validation}{61}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Extending SHARP}{61}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Motion artifacts correction}{61}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Spatially-varying aberrations correction}{61}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Complex amplitude noise reduction}{61}{subsection.3.3.3}% 
+\contentsline {chapter}{\numberline {4}Complex shot noise reduction in OCT: CTN\lowercase {ode}}{62}{chapter.4}% 
+\contentsline {chapter}{\numberline {5}Experimental application}{63}{chapter.5}% 
+\contentsline {chapter}{\numberline {6}Conclusions and future works}{64}{chapter.6}% 
+\contentsline {chapter}{REFERENCES}{65}{chapter.6}% 
