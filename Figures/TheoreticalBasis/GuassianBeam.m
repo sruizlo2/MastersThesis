@@ -105,7 +105,7 @@ gaussianBeam1 = 1 / (2 * pi) * fftshift(fft(fftshift(1 ./ ...
   exp(-1i * (zVect' - focalPlane) .* freqXVect .^ 2 ./ wavenumber / 4) .* ...
   exp(- (freqXVect * alpha ./ wavenumber / 2) .^ 2), 2), [], 2), 2);
 figH1 = figure(curFig); subplot(1, 2, 1), imagesc(xVect * 1e6, zVect * 1e6, abs(gaussianBeam1)),
-xlabel('$x$ [$\mu$m]'), title('b) Gaussian beam'), %ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(b) Gaussian beam'), %ylabel('$z$ [$\mu$m]'), 
 axis image, colormap(cMap), set(gca, 'YTick', []);
 
 %% Create object with point scatteres
@@ -200,7 +200,7 @@ gaussianBeam2 = 1 / (2 * pi) * fftshift(fft(fftshift(1 ./ ...
   exp(- (freqXVect * alpha ./ wavenumber / 2) .^ 2), 2), [], 2), 2);
 
 figH1 = figure(curFig); subplot(1, 2, 2), imagesc(xVect * 1e6, zVect * 1e6, abs(gaussianBeam2)), 
-xlabel('$x$ [$\mu$m]'), title('b) Gaussian beam'), %ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(b) Gaussian beam'), %ylabel('$z$ [$\mu$m]'), 
 axis image, colormap(cMap), set(gca, 'YTick', []);
 
 %% Forward Model
@@ -240,19 +240,19 @@ logLim = [65 inf];
 % Figure 1
 figH1 = figure(curFig + 1); subplot(1,3,1), imagesc(squeeze(xVect) * 1e6, squeeze(flip(zVect))* 1e6,...
   objSuscep(:, :, 1)), axis image
-xlabel('$x$ [$\mu$m]'), ylabel('$z$ [$\mu$m]'), title('a) Sample'),
+xlabel('$x$ [$\mu$m]'), ylabel('$z$ [$\mu$m]'), title('(a) Sample'),
 set(gca,'YDir','normal'), colormap(cMap), drawnow,
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Ticks = linspace(0, 1, 6);
 hCB.Label.String = '[a.u.]'; hCB.Label.Interpreter = 'latex'; hCB.Label.FontSize = 20;
 
 subplot(1,3,2), imagesc(xVect * 1e6, zVect * 1e6, abs(gaussianBeam1) / max(abs(gaussianBeam1(:)))), 
-xlabel('$x$ [$\mu$m]'), title('b) Gaussian beam'), %ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(b) Gaussian beam'), %ylabel('$z$ [$\mu$m]'), 
 axis image, colormap(cMap), set(gca, 'YTick', []);
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Ticks = linspace(0, 1, 6);
 hCB.Label.String = '[a.u.]'; hCB.Label.Interpreter = 'latex'; hCB.Label.FontSize = 20;
 
 subplot(1,3,3), imagesc(squeeze(xVect) * 1e6, squeeze(zVect)* 1e6, 10 * log10(abs(tom1) .^ 2), logLim),
-xlabel('$x$ [$\mu$m]'), title('c) OCT image'), axis image % ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(c) OCT image'), axis image % ylabel('$z$ [$\mu$m]'), 
 set(gca, 'YTick', [])
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Label.String = 'log. scale [a.u.]';
 hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20;
@@ -262,19 +262,19 @@ logLim = [65 110];
 % Figure 2
 figH2 = figure(curFig + 2); subplot(1,3,1), imagesc(squeeze(xVect) * 1e6, squeeze(flip(zVect))* 1e6,...
   objSuscep(:, :, 1)), axis image
-xlabel('$x$ [$\mu$m]'), ylabel('$z$ [$\mu$m]'), title('a) Sample'),
+xlabel('$x$ [$\mu$m]'), ylabel('$z$ [$\mu$m]'), title('(a) Sample'),
 set(gca,'YDir','normal'), colormap(cMap), drawnow,
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Ticks = linspace(0, 1, 6);
 hCB.Label.String = '[a.u.]'; hCB.Label.Interpreter = 'latex'; hCB.Label.FontSize = 20;
 
 subplot(1,3,2), imagesc(xVect * 1e6, zVect * 1e6, abs(gaussianBeam2) / max(abs(gaussianBeam2(:)))), 
-xlabel('$x$ [$\mu$m]'), title('b) Gaussian beam'), %ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(b) Gaussian beam'), %ylabel('$z$ [$\mu$m]'), 
 axis image, colormap(cMap), set(gca, 'YTick', []);
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Ticks = linspace(0, 1, 6);
 hCB.Label.String = '[a.u.]'; hCB.Label.Interpreter = 'latex'; hCB.Label.FontSize = 20;
 
 subplot(1,3,3), imagesc(squeeze(xVect) * 1e6, squeeze(zVect)* 1e6, 10 * log10(abs(tom3) .^ 2), logLim),
-xlabel('$x$ [$\mu$m]'), title('c) OCT image'), axis image % ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(c) OCT image'), axis image % ylabel('$z$ [$\mu$m]'), 
 set(gca, 'YTick', [])
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Label.String = 'log. scale [a.u.]';
 hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20;
@@ -282,19 +282,19 @@ hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20;
 % Figure 3
 figH3 = figure(curFig + 3); subplot(1,3,1), imagesc(squeeze(xVect) * 1e6, squeeze(flip(zVect))* 1e6,...
   objSuscep(:, :, 1)), axis image
-xlabel('$x$ [$\mu$m]'), ylabel('$z$ [$\mu$m]'), title('a) Sample'),
+xlabel('$x$ [$\mu$m]'), ylabel('$z$ [$\mu$m]'), title('(a) Sample'),
 set(gca,'YDir','normal'), colormap(cMap), drawnow,
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Ticks = linspace(0, 1, 6);
 hCB.Label.String = '[a.u.]'; hCB.Label.Interpreter = 'latex'; hCB.Label.FontSize = 20;
 
 subplot(1,3,2), imagesc(squeeze(xVect) * 1e6, squeeze(zVect)* 1e6, 10 * log10(abs(tom3) .^ 2), logLim),
-xlabel('$x$ [$\mu$m]'), title('c) OCT image'), axis image % ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(b) OCT image'), axis image % ylabel('$z$ [$\mu$m]'), 
 set(gca, 'YTick', [])
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Label.String = 'log. scale [a.u.]';
 hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20;
 
 subplot(1,3,3), imagesc(squeeze(xVect) * 1e6, squeeze(zVect)* 1e6, 10 * log10(abs(tom3Refocused) .^ 2), logLim),
-xlabel('$x$ [$\mu$m]'), title('c) Defocus correction'), axis image % ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(c) Defocus correction'), axis image % ylabel('$z$ [$\mu$m]'), 
 set(gca, 'YTick', [])
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Label.String = 'log. scale [a.u.]';
 hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20;
@@ -333,7 +333,7 @@ phaseThresDb = 65;
 % Figure 4a
 figH4a = figure(curFig + 4); plot(xVect * 1e6, motionUm * 1e6 * axSampling, 'r', 'linewidth', 1), axis tight
 ylabel('$\delta z_n$ [$\mu$m]'), xlabel('$x$ [$\mu$m]'), grid minor
-title('d) Induce motion')
+title('(d) Induce motion')
 
 % Refocus
 tom3MotionRefocused = RefocusTomogramWithModifiedAmpFilter1D(tom3Mot,...
@@ -344,20 +344,20 @@ tom3MotionPhaseRefocused = RefocusTomogramWithModifiedAmpFilter1D(tom3MotPhase,.
 % Figure 4b
 figH4b = figure(curFig + 5); subplot(1, 3, 1), imagesc(squeeze(xVect)* 1e6, squeeze(flip(zVect))* 1e6, ...
   10 * log10(abs(tom3) .^ 2), logLim), axis image, set(gca,'YDir','normal'), 
-xlabel('$x$ [$\mu$m]'), ylabel('$z$ [$\mu$m]'), title('a) Intenisity with no motion'),
+xlabel('$x$ [$\mu$m]'), ylabel('$z$ [$\mu$m]'), title('(a) Intenisity with no motion'),
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Label.String = 'log. scale [a.u.]';
 hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20;
 
 subplot(1, 3, 2), imagesc(squeeze(xVect)* 1e6, squeeze(zVect)* 1e6, ...
   10 * log10(abs(tom3Mot) .^ 2), logLim), axis image
-xlabel('$x$ [$\mu$m]'), title('b) Intenisity with motion'), %ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(b) Intenisity with motion'), %ylabel('$z$ [$\mu$m]'), 
 set(gca, 'YTick', [])
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Label.String = 'log. scale [a.u.]';
 hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20;
 
 subplot(1, 3, 3), imagesc(squeeze(xVect)* 1e6, squeeze(zVect)* 1e6, ...
   10 * log10(abs(tom3MotionPhaseRefocused) .^ 2), logLim), axis image
-xlabel('$x$ [$\mu$m]'), title('c) Refocused intensity with motion'), %ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(c) Refocused intensity with motion'), %ylabel('$z$ [$\mu$m]'), 
 set(gca, 'YTick', []), colormap(cMap)
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Label.String = 'log. scale [a.u.]';
 hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20;
@@ -369,14 +369,14 @@ maskIntMotion = single(20 * log10(abs(tom3Mot)) > phaseThresDb);
 maskIntMotion(~maskIntMotion) = nan;
 figH4c = figure(curFig + 6); subplot(1, 3, 1), imagescnan(squeeze(xVect)* 1e6, squeeze(flip(zVect))* 1e6, ...
   angle(tom3 .* maskInt), [-pi pi]), axis image, set(gca,'YDir','normal'), 
-xlabel('$x$ [$\mu$m]'), ylabel('$z$ [$\mu$m]'), title('e) Phase with no motion')
+xlabel('$x$ [$\mu$m]'), ylabel('$z$ [$\mu$m]'), title('(e) Phase with no motion')
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Label.String = '[rad.]';
 hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20; hCB.Ticks = linspace(-pi,pi,3);
 hCB.TickLabels = {'$-\pi$', '$0$', '$\pi$'};
 
 subplot(1, 3, 2), imagescnan(squeeze(xVect)* 1e6, squeeze(zVect)* 1e6, ...
   angle(tom3MotPhase .* maskIntMotion), [-pi pi]), axis image, set(gca, 'YTick', []),
-xlabel('$x$ [$\mu$m]'), title('f) Phase with motion'), %ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title('(f) Phase with motion'), %ylabel('$z$ [$\mu$m]'), 
 colormap(cmap('c3', 'shift', -0.25))
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Label.String = '[rad.]';
 hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20; hCB.Ticks = linspace(-pi,pi,3);
@@ -384,7 +384,7 @@ hCB.TickLabels = {'$-\pi$', '$0$', '$\pi$'};
 
 subplot(1, 3, 3), imagescnan(squeeze(xVect)* 1e6, squeeze(zVect)* 1e6, ...
   angle(tom3Mot .* maskIntMotion), [-pi pi]), axis image, set(gca, 'YTick', []),
-xlabel('$x$ [$\mu$m]'), title({'g) Phase with motion', 'ignoring phase offsets'}), %ylabel('$z$ [$\mu$m]'), 
+xlabel('$x$ [$\mu$m]'), title({'(g) Phase with motion', 'ignoring phase offsets'}), %ylabel('$z$ [$\mu$m]'), 
 colormap(cmap('c3', 'shift', -0.25))
 hCB = colorbar; hCB.TickLabelInterpreter = 'latex'; hCB.Label.String = '[rad.]';
 hCB.Label.Interpreter = 'latex';  hCB.Label.FontSize = 20; hCB.Ticks = linspace(-pi,pi,3);
