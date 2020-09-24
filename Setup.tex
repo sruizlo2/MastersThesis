@@ -29,14 +29,41 @@
 \usepackage{amsmath, mathtools}
 
 % Hyperlinks in the text
-\usepackage{hyperref}
+ \usepackage{hyperref}
+% \hypersetup{
+% 	colorlinks,
+% 	citecolor=blue,
+% 	filecolor=black,
+% 	linkcolor=red,
+% 	urlcolor=blue
+% 	linktocpage=true
+% }
 \hypersetup{
-	colorlinks,
-	citecolor=blue,
-	filecolor=black,
-	linkcolor=red,
-	urlcolor=blue
+    bookmarks=true,         % show bookmarks bar
+    unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+    pdftoolbar=true,        % show Acrobat’s toolbar?
+    pdfmenubar=true,        % show Acrobat’s menu?
+    pdffitwindow=true,     % window fit to page when opened
+    pdfstartview={FitH},    % fits the width of the page to the window
+    pdftitle={Computational aberration correction in optical coherence tomography with phase unstable system},% title
+    pdfauthor={Sebastian Ruiz Lopera},     % author
+    pdfsubject={Masther's Thesis},   % subject of the document
+    %pdfcreator={Creator},   % creator of the document
+    %pdfproducer={Producer}, % producer of the document
+    pdfkeywords={Optical coherence tomography} {Computational adaptive optics} {Phase unstable systems} {Digital refocusing}, % list of keywords
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,       % color of internal links (change box color with linkbordercolor)
+    citecolor=blue,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=blue,           % color of external links
+    linktocpage=true
 }
+
+% Prevent that text exceed margins in table of content
+\usepackage{tocstyle}
+\usetocstyle{standard}
+\settocfeature{raggedhook}{\raggedright}
 
 % Chapter titles setup
 %\usepackage{fourier, erewhon}
@@ -86,6 +113,8 @@
 {}
 {-2.5em}
 {\thesubsection.\hspace{0.5em}}
+
+\titlespacing*{\subsubsection}{0pt}{1em}{0em}
 
 % Bookmarks in PDF
 \usepackage[open, openlevel=2, atend]{bookmark}
