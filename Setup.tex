@@ -39,7 +39,7 @@
 % 	linktocpage=true
 % }
 \hypersetup{
-    bookmarks=true,         % show bookmarks bar
+    %bookmarks=true,         % show bookmarks bar
     unicode=false,          % non-Latin characters in Acrobat’s bookmarks
     pdftoolbar=true,        % show Acrobat’s toolbar?
     pdfmenubar=true,        % show Acrobat’s menu?
@@ -60,6 +60,15 @@
     linktocpage=true
 }
 
+%% Do not show month in references
+% \usepackage{biblatex}
+% \AtEveryBibitem{\clearfield{month}}
+% \AtEveryCitekey{\clearfield{month}}
+%\usepackage[bibstyle= ieeetr, citestyle=numeric-comp, sorting=none]{biblatex}
+%\bibliography{bibsource}
+
+%% Bold math
+\usepackage{bm}
 % Prevent that text exceed margins in table of content
 \usepackage{tocstyle}
 \usetocstyle{standard}
@@ -76,6 +85,34 @@
 {\raggedright\Huge\titlerule[1pt]\vspace{2ex}\MakeUppercase}%
 \titlespacing*{\chapter}{0pt}{0pt}{6ex}
 
+% Section titles setup
+\titleformat{\section}[display]
+{\bfseries\large}
+{}
+{-2em}
+{\thesection.\hspace{0.5em}\vspace{-.5em}\setstretch{1.5}}
+
+% subsection titles setup
+\titleformat{\subsection}[display]
+{\large}
+{}
+{-2.5em}
+{\thesubsection.\hspace{0.5em}}
+
+%% Figures appearing on its own section
+\usepackage[section]{placeins}
+
+%% Sort list of Acronyms
+\usepackage{datatool}
+\newcommand*{\addacronym}[2]{%
+   \DTLnewrow{acronyms}%
+   \DTLnewdbentry{acronyms}{Acronym}{#1}%
+   \DTLnewdbentry{acronyms}{Description}{#2}%
+}
+
+%% Tabs for list of Acronyms
+\usepackage{tabto}
+
 %% Double hat in math
 \usepackage{accents}
 \newlength{\dhatheight}
@@ -90,7 +127,7 @@
     \addtolength{\dhatheight}{-0.15ex}%
     \tilde{\vphantom{\rule{1pt}{\dhatheight}}%
     \smash{\hat{#1}}}}
-    
+
 % \titleformat{\chapter}[display]
 % {\bfseries\centering}
 % {\thechapter.}
@@ -99,20 +136,6 @@
 % \titlespacing*{\chapter}{0pt}{0pt}{2ex}
 
 %\titleformat{\chapter}{\bfseries\Large}{\ifnum\value{chapter}>0\relax\arabic{chapter}.~}{0pt}{}
-
-% Section titles setup
-\titleformat{\section}[display]
-{\bfseries\large}
-{}
-{-2em}
-{\thesection.\hspace{0.5em}\vspace{-.5em}\setstretch{1.5}}
-
-% subsection titles setup
-\titleformat{\subsection}[display]
-{\normalsize}
-{}
-{-2.5em}
-{\thesubsection.\hspace{0.5em}}
 
 \titlespacing*{\subsubsection}{0pt}{1em}{0em}
 
@@ -126,6 +149,9 @@
 \newcommand{\invi}{\textit{in vivo}~}
 \newcommand{\exvi}{\textit{ex vivo}~}
 \newcommand{\insi}{\textit{in situ}~}
+
+%% Fix issue with list of acronyms having wrong title in heading
+%\usepackage{unnumberedtotoc}
 
 % Fancy headers
 \usepackage{fancyhdr}
@@ -153,3 +179,4 @@
 \makeatother
 
 \let\cleardoublepage=\clearpage
+

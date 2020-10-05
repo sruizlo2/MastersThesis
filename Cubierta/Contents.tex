@@ -4,11 +4,11 @@
 	\currentpdfbookmark{Content}{Content}
 	\tableofcontents
 	%\thispagestyle{empty}
-    \newpage\null\thispagestyle{empty}
+    %\newpage\null\thispagestyle{empty}
 }
 
 \newcommand{\figuras}{
-	%\newpage
+	\newpage
 	\phantomsection
 	\addcontentsline{toc}{chapter}{\bf LIST OF FIGURES}
 	\listoffigures
@@ -18,26 +18,83 @@
 
 \newcommand{\tablas}{
 	%\newpage
-	\phantomsection
-	\addcontentsline{toc}{chapter}{\bf LIST OF TABLES}
-	\listoftables
+	%\phantomsection
+	%\addcontentsline{toc}{chapter}{\bf LIST OF TABLES}
+	%\listoftables
 	%\thispagestyle{empty}
 }
 
 
 \newcommand{\acronimos}{
-	%\newpage
+	\newpage
 	\phantomsection
-	\chapter*{LIST OF ACRONYMS}
 	\addcontentsline{toc}{chapter}{\bf LIST OF ACRONYMS}
-	\begin{acronym}[AWGN]
-		\acro{APDL}{\textit{ANSYS parametric design language} (Lenguaje paramétrico de diseño de ANSYS).}
-	\end{acronym}
+	\chapter*{LIST OF ACRONYMS}
+	\markboth{}{LIST OF ACRONYMS}
+
+    % Create database with list of acronyms
+    \DTLnewdb{acronyms}
+    \addacronym{NA}{Numerical aperture.}
+    \addacronym{DoF}{Depth of field.}
+    \addacronym{FoV}{Field of view.}
+    \addacronym{ISAM}{Interferometric synthetic aperture microscopy.}
+    \addacronym{CAC}{Computational aberration correction.}
+    \addacronym{CAO}{Computational adaptive optics.}
+    \addacronym{AO}{Adaptive optics.}
+    \addacronym{PS-OCT}{Polarization-sensitive optical coherence tomography.}
+    \addacronym{OCT-A}{Optical coherence tomography angiography.}
+    \addacronym{SAR}{Synthetic aperture radar.}
+    \addacronym{SNR}{Signal-to-noise ratio.}
+    \addacronym{SHARP}{Short Aline-Range Phase-stability adaptive optics.}
+    \addacronym{CTNode}{Coherent tomographic non-local means denoising.}
+    \addacronym{TNode}{Tomographic non-local means despeckling.}
+    \addacronym{PS-TNode}{Polarization-sensitive tomographic non-local means despeckling.}
+    \addacronym{OPL}{Optical path length.}
+	\addacronym{OCT}{Optical coherence tomography.}
+	\addacronym{TDOCT}{Time-domain optical coherence tomography.}
+	\addacronym{SDOCT}{Spectral-domain optical coherence tomography.}
+	\addacronym{FDOCT}{Fourier-domain optical coherence tomography.}
+	\addacronym{SSOCT}{Swept-source optical coherence tomography.}
+	\addacronym{OFDI}{Optical frequency domain imaging.}
+	\addacronym{FF}{Full-field.}
+	\addacronym{LF}{Line-field.}
+	\addacronym{OCM}{Optical coherence microscopy.}
+	\addacronym{PSF}{Point spread function.}
+	\addacronym{FT}{Fourier transform.}
+	\addacronym{SOA}{Semiconductor optical amplifier.}
+	\addacronym{FBG}{Fiber Bragg grating.}
+	\addacronym{ADC}{Analog-to-digital conversions.}
+	\addacronym{VCSEL}{Vertical cavity surface emitting lasers.}
+	\addacronym{MEMS}{Micro-electro-mechanical mirror system.}
+	\addacronym{2D}{Two dimensional.}
+	\addacronym{1D}{One dimensional.}
+	\addacronym{3D}{Three dimensional.}
+	\addacronym{MS}{Multiple scattering.}
+	\addacronym{STD}{Standard deviation.}
+    \addacronym{BFL}{Back focal length.}
+    \addacronym{FFL}{Front focal length.}
+    \addacronym{FM}{Forward model.}
+    \addacronym{SE}{Shannon's Entropy.}
+    \addacronym{MPS}{Mean power spectrum.}
+    \addacronym{RB}{Rollback.}
+    \addacronym{OF}{Optimum filter.}
+    \addacronym{OoF}{Out of focus.}
+    \addacronym{ROI}{Region of interest.}
+    \addacronym{DOP}{Degree of polarization.}
+    \addacronym{SLO}{Scanning laser ophthalmoscope.}
+
+    \DTLsort{Acronym}{acronyms}
+    % Display the contents of the database
+    \begin{itemize}
+    \DTLforeach*{acronyms}{\thisAcronym=Acronym,\thisDesc=Description}%
+       {\item[] \textbf{\thisAcronym},\tabto{5.7em} \quad\thisDesc}%
+    \end{itemize}
+
 	%\thispagestyle{empty}
 }
 
 \contenido
 \figuras
-\tablas
+%\tablas
 \acronimos
 \newpage\null\thispagestyle{empty}

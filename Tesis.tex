@@ -23,6 +23,7 @@
 
 % Load Cover
 \include{Cubierta/Cover}
+\include{Cubierta/Abstract}
 \include{Cubierta/Contents}
 
 % Number pages with roman numbers
@@ -31,7 +32,7 @@
 % Number pages with arabic numbers
 \renewcommand{\thepage}{\arabic{page}}
 %\setcounter{page}{\thepage
-% \setcounter{secnumdepth}{5}
+\setcounter{secnumdepth}{7}
 
 \include{Caps/Introduction}
 \include{Caps/TheoreticalBasis}
@@ -41,9 +42,10 @@
 \include{Caps/Conclusions}
 
 % Referencias
-\addcontentsline{toc}{chapter}{REFERENCES}
 %\section*{Referencias}
-\bibliographystyle{unsrt}
+%\bibliographystyle{abbrv}
+\bibliographystyle{ieeetr}
 \bibliography{bibsource}
+\addcontentsline{toc}{chapter}{REFERENCES}
 
 \end{document}

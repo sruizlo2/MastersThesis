@@ -2,3 +2,80 @@
 \phantomsection
 \chapter{Conclusions and future works}\label{chap:conclusions}
 
+\section{Conclusions}
+
+In this work, post-processing techniques were developed to improve image quality in optical coherence tomography, employing mathematical physics-based models that take advantage of the vast information contained in the OCT complex signal. These techniques provided a significant image quality enhancement in a wide variety of experimental applications, even more when complementing its operation with previous developed post-processing techniques, showing the importance and potential use of post-processing techniques in OCT for exploiting signal information in order to facilitate and support visualization of images for its analysis.
+
+\subsection{In regard to the objectives}
+
+The central aim of this work was materialized and satisfactory accomplished with the development and experimental validation of SHARP, a technique to perform computational adaptive optics in OCT systems having 2D phase instabilities, that enables computational aberration correction  in SSOCT systems with no hardware mitigation of phase-noise that were deemed unsuitable for it because of the phase stability requirement. SHARP technique is fully numerical and entirely based on the signal information itself, thus it does not require any prior knowledge of system parameters for its normal operation, and its operations does not rely on any specific configuration, thus it is compatible with standard SSOCT systems like those based on polygon wavelength-swept source that are widespread in research and medical scenarios. SHARP operates with tomograms having phase instabilities arising from jitter in synchronization of the acquisition system, as well as other sources of phase noise like sub-resolution axial sample motion and galvo mirror scanners, and even inter-B-scan bulk motion with the proper complex-amplitude shifts correction also described in this work.
+
+Given its 1D operation, SHARP is capable of correcting only $x$-$y$-separable aberrations, yet it is sufficient for many practical scenarios where defocus dominates, as is the case of most systems given the intrinsic defocus of the Gaussian beam used to probe the sample. To overcome this requirement, an extension of the method for further correction of additional aberrations, non-separable in $x$-$y$, was proposed and demonstrate with simulated data, although experimental demonstration is indeed necessary for a complete validation.
+
+SHARP proved to be an useful tool to improve lateral resolution of low and medium NA systems outside the Rayleigh range to computationally extend the depth of field in phase unstable systems. This was demonstrated with a proof of concept experiment and additional applications in a variety of samples, including ocular, skin and endoscopic imaging. Comments on each specific objective are given above.
+
+In order to develop SHARP, a comprehensive review of state-of-art of computational aberration correction techniques was carried out and then condensed in the theoretical basis of this work, starting with the description of the general optical process occurring in the acquisition of the OCT signal, then describing in detail the most relevant computational aberration correction techniques in OCT, making particular emphasizes on how phase stability requirement has been addressed throughout the development of CAC techniques. The collection of concepts, models and bibliography in the field of CAC provided in Chapter~\ref{chap:theory} could serve as a good first general approximation for readers interested in this field.
+
+The review of the state-of-art also allowed to identify that indeed operation of CAC techniques has been very jointed to SDOCT systems in which phase stability is more straightforwardly achieved, and others custom and less common configurations like full-field systems. Furthermore, understanding the origin of phase-jitter noise and the impact of sample motion in phase stability were essential to understand the phase stabilization methods used in phase-resolved OCT, and to identify key motivations for the development of SHARP, for instance the impossibility to correct for 2D phase noise using existent 1D methods.
+
+With the comprehension of the foundations of CAC techniques and phase stabilization methods, it was possible to properly integrate them into a fully computational method for aberration correction of OCT tomograms with no intrinsic phase stability, which was called SHARP. The method, exploits 1D phase stability instead of attempting to obtain 2D, and consists in an original integration of sequential 1D phase stabilization and aberration correction, performed twice in order to accomplish a 2D correction with a unobvious connective step. With this procedure. The operation of the method was exemplified in detail with a proof of concept experiment acquired with an OCT system having strong phase-jitter noise, showing successful 2D correction of defocus. Furthermore, an extension of SHARP to operate in PS-OCT was described and demonstrated in computational refocusing of polarimetric properties.
+
+Performance of SHARP was evaluated in real tissue in three applications with medical relevance; ocular, airway and skin imaging, including \textit{ex vivo} and \textit{in vivo} measurements, achieving successful results in all cases despite the differences in tissue and systems configuration, which is a great advantage of the fully numerical operation of SHARP that depends only on signal information. These experimental validations demonstrated the wide range of potential applications where operation of SHARP could be beneficial. In particular, computational refocusing in skin imaging \textit{in vivo} was possible despite the involuntary motion of the subject by integrating bulk motion correction into SHARP procedure.
+
+Finally, limitations of SHARP arising from its particular operation as well as inherited from the general model of CAC were discussed, but more importantly, strategies to overcome major specific limitations were explained and integrated into SHARP procedure, some of which are supported by experimental demonstrations. Furthermore, the proposed analysis on the MPS is a straightforward alternative to evaluate the minimum requirements of SHARP and of CAC techniques in general. Although restriction to correct only $x$-$y$-separable aberrations is a major limitation, an alternative to overcome this was also proposed here.
+
+\subsection{In regard to the results}
+
+General outcome of this work consists in two advance techniques for OCT that aim to improve image quality by means of post-processing with no dependence on hardware modifications or custom configurations. The core development is SHARP, a technique that enabled computational correction of defocus in all experimental demonstrations using SSOCT systems with strong phase noise, resulting in sharper images across a larger depth of field. Proof of concept experiment showed successful refocus up to 5 times the Rayleigh range, but this limit is sample-dependent, being multiple scattering and signal loss the major practical constrains on the maximum amount of defocus that is correctable, i.e. the maximum possible extension of the depth of field. In this experiment, computational refocused images after SHARP exhibit a resolution similar to the experimental in-focus reference images.
+
+Introduction of the MPS as tool for assessing CAC requirements, namely phase stability and sampling, and the use of the optimum filter for noise filtering are valuable side results not only in the field of CAC but also in the OCT community.
+
+Anterior segment imaging profiles as a potential relevant application for SHARP given the interest of obtaining high resolution images in an extended axial range to cover the extent of the cornea, and because of the spatial variation of aberrations that may introduce the conreal curvature, that can be corrected by SHARP. In this case, the use of a resolution-preserving despeckling technique like TNode in combination to SHARP provided a very significant improvement of images quality in comparison to original images where defocus and speckle make visualization difficult.
+
+Improvements in anterior segment imaging were also achieved complementing SHARP with CTNode technique, which offered a great noise reduction allowing to visualize low and medium intensity regions with better contrast. CTNode showed to be an effective technique to reduce noise exploiting the available information given its non-local means operation, as analyzed in the validation with simulated data, where an equivalent performance to coherent averaging of 12 repetition frames was achieved with CTNode but needing a single repetition frame. Furthermore, noise reduction was demonstrate in human retina imaging \textit{in vivo}, aiming to improve SNR in low intensity regions like the choroid and sclera, at the cost of reducing contrast of medium and high-SNR layers. Although demonstration here are shown only in intensity-contrast images, CTNode promises to be an useful technique for noise reduction for phase-dependent techniques.
+
+In endoscopic imaging, successful refocusing was demonstrated \textit{in vivo}, close the the catheter wall which is a region located far from the focal plane in long working distance catheters. Visualization of results was also enhanced by TNode despeckling. This demonstration suggests that computational refocusing could allow to improve lateral resolution with inexpensive optical design of catheter probes, instead of using sophisticated designs to account for astigmatism.
+
+Although aberration correction is limited in skin tissue due to the presence of multiple scattering, the \textit{in vivo} experiment in skin imaging is a valuable demonstration because of the presence of involuntary sample motion that is known to be a notable restriction in CAC techniques, which was successfully corrected in SHARP, and also due to the irregular topography of the tissue that is a clear example of the need of spatial-varying aberration correction.
+
+The demonstration of computational refocusing in PS-OCT is the first experimental demonstration to the best of our knowledge. Results exhibit an improvement of lateral resolution in the estimated polarimetric parameters of tissue in the limbal region of the anterior segment, despite the negative effect of spatial filtering process that is inherent to PS-OCT processing, showing the potential of SHARP to improve resolution in PS-OCT that generally posses a coarse resolution. This improvement is very relevant in quantitative assessment of polarimetric properties of tissue used for analysis and diagnosis of diseases.
+
+\section{Perspective of improvements and future works}
+
+There are many ideas and experiments that could help to improve the proposed techniques. Aberration correction in the retina with SHARP is a key following validation in order to determine the possibility to correct beyond $x$-$y$-separable aberrations with the proposed extension.
+
+For correction of spatial-varying aberrations, a more localized approach has been devised in which the optimal weights in CAO are determined using small windows with high overlap to produce a dense map of weights, interpolated to obtain the correction of individual pixels that are then applied pixel-wise using an integral transformation in spatial domain, instead of applying a global correction in Fourier domain for all pixels within the windows.
+
+It is expected that the performance of the optimum filter may vary for different oversampling values, being more effective as oversampling increases. This could be analyzed experimentally by imaging a phantom or a simple sample at different oversampling values and comparing the performance of the optimum filter and the practicality of this approach for noise reduction.
+
+With respect to CTNode, there are yet open issues and questions to solve, for instance, how it impacts phase stability and what is the impact of phase stability on its performance. Also, the effectiveness of the method most be evaluated in a systematic experiment where it could be compared to coherent averaging, additionally expanding operation CTNode to work with multiple frames repetitions which is straightforwardly obtainable with a compounding of probabilities as in TNode. Furthermore, its utility in functional phase-dependent techniques must be evaluated experimentally, possibly in angiography or elastography. Finally, it has been speculated that operation of TNode could be boosted by operating in the complex signal similarly to CTNode. The idea is to perform the incoherent non-local means of TNode but determining the weights by computing the similarity criterion in the complex signal like in CTNode.
+
+In regard to PSOCT, refinements in the resolution-preserving despeckling technique  PS-TNode are yet to be finished, and after that it could be possible to combine SHARP with PS-TNode to achieve an even greater resolution improvement in images of polarimetric properties than achieved so far with traditional spatial filtering. Furthermore, numerical phase-stabilization strategies has been devised to obtain phase stable Jones vectors which can be converted into Mueller matrices to perform a correction of system polarization effects without the axial resolution loss that occurs in spectral binning Stokes processing.
+
+Finally, a proper integration of SHARP with angiography processing is also due in order to keep expanding computational aberration correction into different functional imaging techniques in OCT.
+
+\section{Collection of publications and presentations}
+
+The core of SHARP procedure is currently in press pending for publication~\cite{Ruiz-Lopera2020_Computational}:
+
+S. Ruiz-Lopera, R. Restrepo, C. Cuartas-Vélez, B. E. Bouma, and N. Uribe-Patarroyo, ``Computational adaptive optics in phase-unstable optical coherence tomography,'' \textit{Optics Letters}, vol. 45, no. 21 [in press], 2020.
+
+An additional work has been published in regard to noise and bias analysis in OCT intensity based signal decorrelation employed in functional imaging~\cite{Uribe-Patarroyo2020_Noise}:
+
+N. Uribe-Patarroyo, A. L. Post, S. Ruiz-Lopera, D. J. Faber, and B. E. Bouma, ``Noise and bias in optical coherence tomography intensity signal decorrelation,'' \textit{OSA Continuum}, vol. 3, p. 709, 2020.
+
+Past works have also included experimental OCT setups~\cite{Cuartas-Velez2019_Labmade, Ruiz-Lopera2018_Design}:
+
+C. Cuartas-Vélez, S. Ruiz-Lopera, N. Uribe-Patarroyo, and R. Restrepo,``Lab-made accessible full-field optical coherence tomography imaging system,'' \textit{Optica Pura y Aplicada}, vol. 52, no. 3, pp. 1–11, 2019.
+
+Oral presentations have been given in international conferences:
+\begin{itemize}
+    \renewcommand{\labelitemi}{$\blacktriangleright$}
+    \item S. Ruiz-Lopera, R. Restrepo, C. Cuartas-Vélez, B. E. Bouma, and N. Uribe-Patarroyo, ``Digital adaptive optics in optical coherence tomography with phase unstable sources,'' in \textit{Photonic West}, (San Francisco), [no proceeding], SPIE, 2020.
+
+    \item S. Ruiz-Lopera, R. Restrepo, C. Cuartas-Vélez, B. E. Bouma, and N. Uribe-Patarroyo, ``Digital refocusing and aberration compensation in optical coherence tomography with phase-unstable sources,'' in \textit{Photonic West}, (Munich), [no proceeding], SPIE, 2019.
+    
+    \item R. Restrepo, S. Ruiz-Lopera, C. Cuartas-Vélez, J. Ren, B. E. Bouma, and N. Uribe-Patarroyo, ``Phase-jitter correction for swept-source OCT digital refocusing,'' in \textit{Photonic West}, (San Francisco), [no proceeding], SPIE, 2019.
+    
+    \item S. Ruiz-Lopera and R. Restrepo, ``Design of a Linear in Wavenumber Spectrometer,'' in \textit{Latin America Optics and Photonics Conference}, (Lima), p. W2B.3, OSA, 2018.
+\end{itemize}
